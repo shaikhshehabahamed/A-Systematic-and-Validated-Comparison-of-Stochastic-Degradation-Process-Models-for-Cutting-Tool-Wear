@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Window-size robustness sweep: best-AIC family and $\Delta$AIC(Gamma-IG) (positive favors IG) across candidate wear-window aggregation sizes, with mean lag-1 PIT-residual autocorrelation (averaged across all fitted families and machines) at each size. The production default (window\_size=15) is not a cherry-picked value, and its non-trivial autocorrelation (Table S15) is predominantly a coarse-aggregation artifact: the same diagnostic is near zero at the finest window sizes here and grows systematically as windows coarsen.}
+\label{tab:window-size-sweep}
+\begin{tabular}{lrrrr}
+\toprule
+Window size & M1: best / $\Delta$(Gamma-IG) & M2: best / $\Delta$(Gamma-IG) & M3: best / $\Delta$(Gamma-IG) & Mean lag-1 PIT-ACF \\
+\midrule
+5 & Multi-stage Wiener / -0.1 & Multi-stage Wiener / +2.2 & Multi-stage Wiener / +26.2 & 0.30 \\
+8 & Multi-stage Wiener / +18.2 & Multi-stage Wiener / +11.6 & State-dependent Inverse Gaussian / +25.6 & 0.54 \\
+10 & Multi-stage Wiener / +16.5 & Multi-stage Wiener / +22.2 & State-dependent Inverse Gaussian / +27.0 & 0.58 \\
+12 & Multi-stage Wiener / +13.6 & State-dependent Inverse Gaussian / +22.9 & State-dependent Inverse Gaussian / +22.4 & 0.66 \\
+15 & Multi-stage Wiener / +20.2 & State-dependent Inverse Gaussian / +21.3 & State-dependent Inverse Gaussian / +22.7 & 0.65 \\
+20 & Multi-stage Wiener / +14.4 & State-dependent Inverse Gaussian / +25.7 & State-dependent Inverse Gaussian / +11.8 & 0.67 \\
+25 & Generalized Inverse Gaussian / +14.9 & State-dependent Inverse Gaussian / +25.9 & State-dependent Inverse Gaussian / +12.9 & 0.62 \\
+30 & Generalized Inverse Gaussian / +18.1 & Generalized Inverse Gaussian / +23.2 & State-dependent Inverse Gaussian / +12.2 & 0.54 \\
+\bottomrule
+\end{tabular}
+\end{table}

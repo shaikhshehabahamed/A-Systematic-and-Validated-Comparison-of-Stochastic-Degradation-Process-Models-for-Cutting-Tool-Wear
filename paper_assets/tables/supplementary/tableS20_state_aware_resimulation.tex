@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Corrected, state-aware trajectory re-simulation for the two wear-level-dependent variants, against the naive (frozen-wear-level) values Table 4 itself reports. The naive mean curve (used for every family in Table 4) holds each tool's wear level fixed at its first recorded reading for the whole trajectory; the state-aware version instead recurses the mean curve forward at the same window granularity the model was fit at, feeding each window's own predicted wear level into the next window's wear-level-dependent shape quantity, exactly as the fitted feedback term intends. This recursion is the exact conditional-mean trajectory under the fitted model, not a Monte Carlo approximation of it, since both families' shape quantity is affine in wear level and neither family's draws are clipped. "State-aware calibrated" reapplies Section 4.5's five-condition rule with this corrected RMSE/bias in place of the naive values and every other condition unchanged.}
+\label{tab:state-aware-resimulation}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Machine & Family & Naive RMSE (\textmu{}m) & State-aware RMSE (\textmu{}m) & RMSE gap closed & Naive terminal bias (\textmu{}m) & State-aware terminal bias (\textmu{}m) & Bias gap closed & State-aware calibrated \\
+\midrule
+M1 & State-dependent Gamma & 25.49 & 12.63 & +50.4\% & -64.47 & -4.19 & +93.5\% & Yes \\
+M2 & State-dependent Gamma & 28.87 & 16.96 & +41.3\% & -65.25 & -6.07 & +90.7\% & Yes \\
+M3 & State-dependent Gamma & 30.87 & 13.41 & +56.6\% & -63.91 & -5.97 & +90.7\% & Yes \\
+M1 & State-dependent Inverse Gaussian & 31.52 & 22.33 & +29.2\% & -55.03 & -14.56 & +73.5\% & No \\
+M2 & State-dependent Inverse Gaussian & 39.63 & 28.24 & +28.8\% & -65.76 & -20.69 & +68.5\% & No \\
+M3 & State-dependent Inverse Gaussian & 39.03 & 25.61 & +34.4\% & -67.70 & -18.60 & +72.5\% & No \\
+\bottomrule
+\end{tabular}
+\end{table}

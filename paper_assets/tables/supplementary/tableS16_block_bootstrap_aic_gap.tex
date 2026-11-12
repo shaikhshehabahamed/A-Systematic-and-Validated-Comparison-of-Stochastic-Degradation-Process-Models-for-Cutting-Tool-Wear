@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Block bootstrap distribution of the AIC gap between Gamma and Inverse Gaussian, resampling whole tools (never individual windows) with replacement -- an exact enumeration of all 3\textsuperscript{3}=27 possible draws given 3 tools/machine, not an approximate Monte Carlo sample. Wider than Table~S4 by construction (only 3 independent blocks, vs. up to $\sim$150 individual windows), and reported honestly as such: the qualitative conclusion is checked for fragility to which specific tools were observed, not re-estimated with the same apparent precision as Table~S4.}
+\label{tab:block-bootstrap-aic-gap}
+\begin{tabular}{lrrrrrr}
+\toprule
+Machine & n draws & Exact? & Mean gap (Gamma-IG) & Std & 95\% CI & Draws favoring IG \\
+\midrule
+M1 & 27 & Yes & 18.70 & 4.39 & [11.96, 25.74] & 100\% \\
+M2 & 27 & Yes & 19.09 & 2.19 & [14.57, 21.56] & 100\% \\
+M3 & 27 & Yes & 22.86 & 4.22 & [14.83, 29.32] & 100\% \\
+\bottomrule
+\end{tabular}
+\end{table}

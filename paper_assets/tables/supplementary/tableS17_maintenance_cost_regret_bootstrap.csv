@@ -1,0 +1,4 @@
+Machine,n draws,Exact?,"Regret using Gamma policy (mean, 95% CI)","Regret using Wiener policy (mean, 95% CI)"
+M1,27,Yes,"+0.56% [0.00, 1.55]","+3.70% [0.93, 7.43]"
+M2,27,Yes,"+0.37% [0.09, 0.64]","+4.79% [3.72, 6.25]"
+M3,27,Yes,"+0.12% [0.00, 0.34]","+14.57% [3.63, 28.67]"

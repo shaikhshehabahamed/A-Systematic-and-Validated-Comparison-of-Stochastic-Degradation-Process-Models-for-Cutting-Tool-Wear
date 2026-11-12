@@ -1,0 +1,31 @@
+Machine,Family,Age model (AIC),Age model (BIC),ΔAIC(stat-NH),ΔBIC(stat-NH),Criterion-dependent
+M1,Gamma,power_law,linear,+7.51,-0.91,Yes
+M1,Inverse Gaussian,linear,linear,-3.16,-11.57,No
+M1,Wiener,power_law,power_law,+84.59,+76.18,No
+M1,Truncated Wiener,power_law,power_law,+43.93,+35.51,No
+M1,State-dependent Gamma,power_law,power_law,+16.72,+8.31,No
+M1,State-dependent Inverse Gaussian,linear,linear,+1.59,-6.82,No
+M1,Random-effects Gamma,linear,linear,-2.00,-4.80,No
+M1,Random-effects Inverse Gaussian,linear,linear,-2.00,-4.80,No
+M1,Multi-stage Wiener,power_law,power_law,+166.59,+155.38,No
+M1,Generalized Inverse Gaussian,linear,linear,-4.60,-13.01,No
+M2,Gamma,power_law,linear,+5.81,-3.81,Yes
+M2,Inverse Gaussian,linear,linear,-3.91,-13.54,No
+M2,Wiener,power_law,power_law,+167.02,+157.39,No
+M2,Truncated Wiener,power_law,power_law,+108.26,+98.63,No
+M2,State-dependent Gamma,power_law,power_law,+15.00,+5.37,No
+M2,State-dependent Inverse Gaussian,linear,linear,+1.88,-7.75,No
+M2,Random-effects Gamma,linear,linear,-2.00,-5.21,No
+M2,Random-effects Inverse Gaussian,linear,linear,-2.00,-5.21,No
+M2,Multi-stage Wiener,power_law,power_law,+270.25,+257.41,No
+M2,Generalized Inverse Gaussian,linear,linear,-3.65,-13.27,No
+M3,Gamma,linear,linear,-3.83,-12.11,No
+M3,Inverse Gaussian,linear,linear,-1.37,-9.66,No
+M3,Wiener,power_law,power_law,+50.86,+42.58,No
+M3,Truncated Wiener,power_law,power_law,+21.01,+12.73,No
+M3,State-dependent Gamma,power_law,linear,+2.52,-5.76,Yes
+M3,State-dependent Inverse Gaussian,linear,linear,-4.65,-12.93,No
+M3,Random-effects Gamma,linear,linear,-2.00,-4.76,No
+M3,Random-effects Inverse Gaussian,linear,linear,-2.00,-4.76,No
+M3,Multi-stage Wiener,power_law,power_law,+114.36,+103.31,No
+M3,Generalized Inverse Gaussian,linear,linear,+0.19,-8.10,No

@@ -1,0 +1,19 @@
+Machine,Variant,Baseline,ΔAIC (baseline-variant),ΔBIC (baseline-variant),LR p-value,Supported (AIC>2),"Supported (LR, α=.05)"
+M1,State-dependent Gamma,Gamma,+7.77,+4.97,0.0018,Yes,Yes
+M1,State-dependent Inverse Gaussian,Inverse Gaussian,+2.97,+0.16,0.0259,Yes,Yes
+M1,Random-effects Gamma,pooled-exponent (own sigma_p=0),-2.00,-4.80,0.5000*,No,No
+M1,Random-effects Inverse Gaussian,pooled-exponent (own sigma_p=0),-2.00,-4.80,0.5000*,No,No
+M1,Multi-stage Wiener,Wiener,+166.59,+155.38,0.0000,Yes,Yes
+M1,Generalized Inverse Gaussian,Inverse Gaussian,+3.51,+0.70,0.0189,Yes,Yes
+M2,State-dependent Gamma,Gamma,+8.93,+5.72,0.0009,Yes,Yes
+M2,State-dependent Inverse Gaussian,Inverse Gaussian,+5.56,+2.35,0.0060,Yes,Yes
+M2,Random-effects Gamma,pooled-exponent (own sigma_p=0),-2.00,-5.21,0.5000*,No,No
+M2,Random-effects Inverse Gaussian,pooled-exponent (own sigma_p=0),-2.00,-5.21,0.5000*,No,No
+M2,Multi-stage Wiener,Wiener,+270.25,+257.41,0.0000,Yes,Yes
+M2,Generalized Inverse Gaussian,Inverse Gaussian,+0.71,-2.50,0.1000,No,No
+M3,State-dependent Gamma,Gamma,+5.85,-5.20,0.0002,Yes,Yes
+M3,State-dependent Inverse Gaussian,Inverse Gaussian,+12.76,+9.99,0.0001,Yes,Yes
+M3,Random-effects Gamma,pooled-exponent (own sigma_p=0),-2.00,-4.76,0.5000*,No,No
+M3,Random-effects Inverse Gaussian,pooled-exponent (own sigma_p=0),-2.00,-4.76,0.5000*,No,No
+M3,Multi-stage Wiener,Wiener,+114.36,+103.31,0.0000,Yes,Yes
+M3,Generalized Inverse Gaussian,Inverse Gaussian,+6.59,+3.83,0.0034,Yes,Yes

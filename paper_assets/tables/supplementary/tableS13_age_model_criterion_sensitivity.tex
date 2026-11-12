@@ -1,0 +1,41 @@
+\begin{table}[t]
+\centering
+\caption{Age-model selection (stationary/`linear' vs. non-homogeneous/`power\_law') under AIC vs. BIC, using the identical $>2$ evidence threshold for both criteria (Table~1 always uses the AIC rule) -- not an arbitrary borrowing from the AIC side: Kass \& Raftery's (1995) BIC evidence-strength convention independently uses the same $>2$ cutoff between negligible and positive evidence. Gamma's non-homogeneous (`aging') conclusion on M1 and M2 -- the two machines behind the `Gamma finds spurious aging that Inverse Gaussian doesn't' contrast in Table~1 -- is specific to AIC: BIC's stricter penalty selects the stationary model for Gamma on both. Inverse Gaussian's and Wiener's age-model conclusions are unchanged under BIC on every machine. This does not affect the family-ranking conclusion (Inverse Gaussian remains the lowest-AIC and lowest-BIC family on every machine regardless, Table~1) -- only the age-model contrast specifically should be read as AIC-dependent for Gamma on 2 of 3 machines.}
+\label{tab:age-model-criterion-sensitivity}
+\begin{tabular}{lrrrrrr}
+\toprule
+Machine & Family & Age model (AIC) & Age model (BIC) & $\Delta$AIC(stat-NH) & $\Delta$BIC(stat-NH) & Criterion-dependent \\
+\midrule
+M1 & Gamma & power\_law & linear & +7.51 & -0.91 & Yes \\
+M1 & Inverse Gaussian & linear & linear & -3.16 & -11.57 & No \\
+M1 & Wiener & power\_law & power\_law & +84.59 & +76.18 & No \\
+M1 & Truncated Wiener & power\_law & power\_law & +43.93 & +35.51 & No \\
+M1 & State-dependent Gamma & power\_law & power\_law & +16.72 & +8.31 & No \\
+M1 & State-dependent Inverse Gaussian & linear & linear & +1.59 & -6.82 & No \\
+M1 & Random-effects Gamma & linear & linear & -2.00 & -4.80 & No \\
+M1 & Random-effects Inverse Gaussian & linear & linear & -2.00 & -4.80 & No \\
+M1 & Multi-stage Wiener & power\_law & power\_law & +166.59 & +155.38 & No \\
+M1 & Generalized Inverse Gaussian & linear & linear & -4.60 & -13.01 & No \\
+M2 & Gamma & power\_law & linear & +5.81 & -3.81 & Yes \\
+M2 & Inverse Gaussian & linear & linear & -3.91 & -13.54 & No \\
+M2 & Wiener & power\_law & power\_law & +167.02 & +157.39 & No \\
+M2 & Truncated Wiener & power\_law & power\_law & +108.26 & +98.63 & No \\
+M2 & State-dependent Gamma & power\_law & power\_law & +15.00 & +5.37 & No \\
+M2 & State-dependent Inverse Gaussian & linear & linear & +1.88 & -7.75 & No \\
+M2 & Random-effects Gamma & linear & linear & -2.00 & -5.21 & No \\
+M2 & Random-effects Inverse Gaussian & linear & linear & -2.00 & -5.21 & No \\
+M2 & Multi-stage Wiener & power\_law & power\_law & +270.25 & +257.41 & No \\
+M2 & Generalized Inverse Gaussian & linear & linear & -3.65 & -13.27 & No \\
+M3 & Gamma & linear & linear & -3.83 & -12.11 & No \\
+M3 & Inverse Gaussian & linear & linear & -1.37 & -9.66 & No \\
+M3 & Wiener & power\_law & power\_law & +50.86 & +42.58 & No \\
+M3 & Truncated Wiener & power\_law & power\_law & +21.01 & +12.73 & No \\
+M3 & State-dependent Gamma & power\_law & linear & +2.52 & -5.76 & Yes \\
+M3 & State-dependent Inverse Gaussian & linear & linear & -4.65 & -12.93 & No \\
+M3 & Random-effects Gamma & linear & linear & -2.00 & -4.76 & No \\
+M3 & Random-effects Inverse Gaussian & linear & linear & -2.00 & -4.76 & No \\
+M3 & Multi-stage Wiener & power\_law & power\_law & +114.36 & +103.31 & No \\
+M3 & Generalized Inverse Gaussian & linear & linear & +0.19 & -8.10 & No \\
+\bottomrule
+\end{tabular}
+\end{table}

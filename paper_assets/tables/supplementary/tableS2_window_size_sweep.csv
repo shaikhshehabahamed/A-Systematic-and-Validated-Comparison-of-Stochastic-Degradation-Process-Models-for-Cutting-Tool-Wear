@@ -1,0 +1,9 @@
+Window size,M1: best / Δ(Gamma-IG),M2: best / Δ(Gamma-IG),M3: best / Δ(Gamma-IG),Mean lag-1 PIT-ACF
+5,Multi-stage Wiener / -0.1,Multi-stage Wiener / +2.2,Multi-stage Wiener / +26.2,0.30
+8,Multi-stage Wiener / +18.2,Multi-stage Wiener / +11.6,State-dependent Inverse Gaussian / +25.6,0.54
+10,Multi-stage Wiener / +16.5,Multi-stage Wiener / +22.2,State-dependent Inverse Gaussian / +27.0,0.58
+12,Multi-stage Wiener / +13.6,State-dependent Inverse Gaussian / +22.9,State-dependent Inverse Gaussian / +22.4,0.66
+15,Multi-stage Wiener / +20.2,State-dependent Inverse Gaussian / +21.3,State-dependent Inverse Gaussian / +22.7,0.65
+20,Multi-stage Wiener / +14.4,State-dependent Inverse Gaussian / +25.7,State-dependent Inverse Gaussian / +11.8,0.67
+25,Generalized Inverse Gaussian / +14.9,State-dependent Inverse Gaussian / +25.9,State-dependent Inverse Gaussian / +12.9,0.62
+30,Generalized Inverse Gaussian / +18.1,Generalized Inverse Gaussian / +23.2,State-dependent Inverse Gaussian / +12.2,0.54

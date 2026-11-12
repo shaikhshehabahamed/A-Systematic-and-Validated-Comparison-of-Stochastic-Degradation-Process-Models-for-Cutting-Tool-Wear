@@ -1,0 +1,41 @@
+\begin{table}[t]
+\centering
+\caption{Mean PIT-residual autocorrelation by lag, averaged across each machine's tools, for every fitted family (50 independent de-quantization draws per tool). Lag-1 values of roughly 0.5-0.85 at the production window size indicate the rounded-observation likelihood's within-tool independence assumption is violated there; Table~S2 shows this is substantially a temporal-aggregation artifact (near zero at finer window sizes), and Table~S10's Vuong test and Table~S16's block bootstrap correct for it via cluster-robust and block-resampling inference respectively rather than assuming it away.}
+\label{tab:residual-autocorrelation}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Family & Machine & N tools & Lag-1 & Lag-2 & Lag-3 & Lag-4 & Lag-5 \\
+\midrule
+Gamma & M1 & 3 & 0.707 & 0.524 & 0.393 & 0.292 & 0.222 \\
+Gamma & M2 & 3 & 0.694 & 0.578 & 0.508 & 0.431 & 0.313 \\
+Gamma & M3 & 3 & 0.637 & 0.374 & 0.230 & 0.102 & 0.078 \\
+Inverse Gaussian & M1 & 3 & 0.653 & 0.461 & 0.286 & 0.164 & 0.091 \\
+Inverse Gaussian & M2 & 3 & 0.640 & 0.527 & 0.453 & 0.351 & 0.215 \\
+Inverse Gaussian & M3 & 3 & 0.630 & 0.384 & 0.238 & 0.101 & 0.083 \\
+Wiener & M1 & 3 & 0.736 & 0.546 & 0.422 & 0.337 & 0.278 \\
+Wiener & M2 & 3 & 0.753 & 0.618 & 0.554 & 0.479 & 0.399 \\
+Wiener & M3 & 3 & 0.685 & 0.436 & 0.307 & 0.201 & 0.167 \\
+Truncated Wiener & M1 & 3 & 0.685 & 0.522 & 0.369 & 0.285 & 0.210 \\
+Truncated Wiener & M2 & 3 & 0.696 & 0.588 & 0.504 & 0.428 & 0.326 \\
+Truncated Wiener & M3 & 3 & 0.660 & 0.433 & 0.289 & 0.183 & 0.145 \\
+State-dependent Gamma & M1 & 3 & 0.679 & 0.483 & 0.347 & 0.252 & 0.188 \\
+State-dependent Gamma & M2 & 3 & 0.672 & 0.549 & 0.479 & 0.403 & 0.286 \\
+State-dependent Gamma & M3 & 3 & 0.589 & 0.300 & 0.177 & 0.063 & 0.054 \\
+State-dependent Inverse Gaussian & M1 & 3 & 0.605 & 0.400 & 0.204 & 0.088 & 0.023 \\
+State-dependent Inverse Gaussian & M2 & 3 & 0.606 & 0.485 & 0.414 & 0.306 & 0.173 \\
+State-dependent Inverse Gaussian & M3 & 3 & 0.527 & 0.212 & 0.037 & -0.101 & -0.091 \\
+Random-effects Gamma & M1 & 3 & 0.716 & 0.537 & 0.405 & 0.303 & 0.231 \\
+Random-effects Gamma & M2 & 3 & 0.694 & 0.578 & 0.508 & 0.430 & 0.312 \\
+Random-effects Gamma & M3 & 3 & 0.652 & 0.400 & 0.267 & 0.143 & 0.115 \\
+Random-effects Inverse Gaussian & M1 & 3 & 0.665 & 0.478 & 0.315 & 0.195 & 0.122 \\
+Random-effects Inverse Gaussian & M2 & 3 & 0.644 & 0.533 & 0.458 & 0.360 & 0.224 \\
+Random-effects Inverse Gaussian & M3 & 3 & 0.593 & 0.317 & 0.133 & -0.015 & -0.020 \\
+Multi-stage Wiener & M1 & 3 & 0.663 & 0.470 & 0.345 & 0.249 & 0.205 \\
+Multi-stage Wiener & M2 & 3 & 0.583 & 0.485 & 0.503 & 0.432 & 0.315 \\
+Multi-stage Wiener & M3 & 3 & 0.690 & 0.466 & 0.289 & 0.163 & 0.128 \\
+Generalized Inverse Gaussian & M1 & 3 & 0.643 & 0.463 & 0.283 & 0.163 & 0.089 \\
+Generalized Inverse Gaussian & M2 & 3 & 0.631 & 0.525 & 0.453 & 0.351 & 0.212 \\
+Generalized Inverse Gaussian & M3 & 3 & 0.625 & 0.397 & 0.249 & 0.107 & 0.091 \\
+\bottomrule
+\end{tabular}
+\end{table}

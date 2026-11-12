@@ -1,0 +1,4 @@
+Machine,Gamma T* (s),IG T* (s),Wiener T* (s),GIG T* (s),Regret using Gamma policy,Regret using Wiener policy,Regret using GIG policy
+M1,2605,2664,2450,2605,+0.2%,+2.9%,+0.2%
+M2,3866,4002,3536,4002,+0.3%,+4.5%,+0.0%
+M3,2858,2858,2314,2664,+0.0%,+14.8%,+2.3%

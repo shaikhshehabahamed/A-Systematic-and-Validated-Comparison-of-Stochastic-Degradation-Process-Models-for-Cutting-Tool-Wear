@@ -1,0 +1,4 @@
+Machine,Block length,n draws,N tools used,Mean gap (Gamma-IG),Std,95% CI,Draws favoring IG
+M1,8,25,3,6.06,12.68,"[-18.17, 21.97]",76%
+M2,8,25,3,3.58,9.52,"[-11.63, 20.22]",52%
+M3,8,25,3,6.40,8.26,"[-3.02, 22.52]",68%

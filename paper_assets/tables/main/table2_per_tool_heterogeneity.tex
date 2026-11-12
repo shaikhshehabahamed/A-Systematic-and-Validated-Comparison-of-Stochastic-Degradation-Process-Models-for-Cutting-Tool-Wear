@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Per-tool age exponent (power=1 is stationary) and formal outlier significance. Gamma's value reflects whichever model AIC selected at the machine level (uninformative, i.e. exactly 1.0, when the stationary model was selected machine-wide); IG's column is the free non-homogeneous candidate before machine-level AIC selection, surfacing per-tool deviation the aggregate decision can mask. The right-hand columns test this formally: each tool is bootstrap-refit in isolation (300 resamples of its own wear windows only), testing its power against stationarity (`Excludes 1.0') and against the mean of its two machine-siblings (`Excludes 0', the more direct outlier test). No tool excludes either at the 95\% level -- point-estimate deviations (e.g. Tool 2 on M1, Tool 5 on M2) are consistent with sampling noise from only three tools per machine, not a demonstrated per-tool effect.}
+\label{tab:per-tool-heterogeneity}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Machine & Tool & Gamma power (AIC-selected) & IG power (free, pre-AIC) & IG power 95\% CI (own bootstrap) & Excludes 1.0 & IG power vs. siblings ($\Delta$) & 95\% CI vs. siblings & Excludes 0 \\
+\midrule
+M1 & 1 & 0.686 & 0.961 & [0.518, 1.621] & No & -0.008 & [-0.613, 0.761] & No \\
+M1 & 2 & 0.549 & 0.635 & [0.339, 1.559] & No & -0.274 & [-0.882, 0.684] & No \\
+M1 & 3 & 0.751 & 1.010 & [0.559, 1.601] & No & +0.180 & [-0.557, 0.915] & No \\
+M2 & 4 & 0.645 & 1.001 & [0.431, 1.620] & No & +0.057 & [-0.750, 0.803] & No \\
+M2 & 5 & 0.655 & 0.787 & [0.421, 1.441] & No & -0.298 & [-0.987, 0.536] & No \\
+M2 & 6 & 0.634 & 1.111 & [0.413, 1.940] & No & +0.207 & [-0.567, 1.133] & No \\
+M3 & 7 & 1.000 & 1.271 & [0.713, 1.755] & No & +0.092 & [-0.539, 0.747] & No \\
+M3 & 8 & 1.000 & 1.229 & [0.791, 1.728] & No & +0.002 & [-0.583, 0.671] & No \\
+M3 & 9 & 1.000 & 1.107 & [0.552, 1.835] & No & -0.133 & [-0.832, 0.803] & No \\
+\bottomrule
+\end{tabular}
+\end{table}

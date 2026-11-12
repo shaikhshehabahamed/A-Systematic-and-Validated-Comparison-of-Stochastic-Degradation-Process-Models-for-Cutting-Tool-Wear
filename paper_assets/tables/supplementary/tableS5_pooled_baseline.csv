@@ -1,0 +1,11 @@
+Family,Pooled AIC,Sum per-machine AIC,Δ AIC,AIC favors pooling,Pooled BIC,Sum per-machine BIC,Δ BIC,BIC favors pooling
+Gamma,1772.50,1772.01,+0.49,No,1849.36,1825.16,+24.20,No
+Inverse Gaussian,1705.95,1707.75,-1.80,Yes,1746.40,1742.85,+3.55,No
+Wiener,1955.64,1959.48,-3.84,Yes,2032.49,2020.91,+11.59,No
+Truncated Wiener,1780.88,1784.49,-3.61,Yes,1857.73,1845.92,+11.81,No
+State-dependent Gamma,1742.71,1749.46,-6.75,Yes,1823.61,1819.66,+3.95,No
+State-dependent Inverse Gaussian,1682.41,1686.46,-4.05,Yes,1726.91,1730.34,-3.43,Yes
+Random-effects Gamma,1765.98,1766.95,-0.96,Yes,1810.48,1810.82,-0.35,Yes
+Random-effects Inverse Gaussian,1707.82,1708.51,-0.69,Yes,1752.31,1752.39,-0.07,Yes
+Multi-stage Wiener,1736.61,1710.74,+25.86,No,1817.51,1780.95,+36.56,No
+Generalized Inverse Gaussian,1695.40,1696.95,-1.55,Yes,1739.89,1740.83,-0.93,Yes

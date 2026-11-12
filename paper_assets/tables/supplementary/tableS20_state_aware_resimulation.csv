@@ -1,0 +1,7 @@
+Machine,Family,Naive RMSE (µm),State-aware RMSE (µm),RMSE gap closed,Naive terminal bias (µm),State-aware terminal bias (µm),Bias gap closed,State-aware calibrated
+M1,State-dependent Gamma,25.49,12.63,+50.4%,-64.47,-4.19,+93.5%,Yes
+M2,State-dependent Gamma,28.87,16.96,+41.3%,-65.25,-6.07,+90.7%,Yes
+M3,State-dependent Gamma,30.87,13.41,+56.6%,-63.91,-5.97,+90.7%,Yes
+M1,State-dependent Inverse Gaussian,31.52,22.33,+29.2%,-55.03,-14.56,+73.5%,No
+M2,State-dependent Inverse Gaussian,39.63,28.24,+28.8%,-65.76,-20.69,+68.5%,No
+M3,State-dependent Inverse Gaussian,39.03,25.61,+34.4%,-67.70,-18.60,+72.5%,No

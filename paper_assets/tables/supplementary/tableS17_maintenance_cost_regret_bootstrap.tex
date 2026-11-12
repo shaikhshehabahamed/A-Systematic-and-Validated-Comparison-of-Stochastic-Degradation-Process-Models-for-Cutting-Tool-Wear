@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Block bootstrap (whole-tool resampling, exact 3\textsuperscript{3}=27-draw enumeration) 95\% CI on Table~4's maintenance-cost regret, propagating parameter estimation uncertainty rather than reporting a single fixed-parameter point estimate. Complements Table~S6, which instead sweeps the illustrative cost ratio; together they address both sources of the "illustrative cost ratios and fixed fitted parameters" concern about the maintenance-cost translation.}
+\label{tab:maintenance-cost-regret-bootstrap}
+\begin{tabular}{lrrrr}
+\toprule
+Machine & n draws & Exact? & Regret using Gamma policy (mean, 95\% CI) & Regret using Wiener policy (mean, 95\% CI) \\
+\midrule
+M1 & 27 & Yes & +0.56\% [0.00, 1.55] & +3.70\% [0.93, 7.43] \\
+M2 & 27 & Yes & +0.37\% [0.09, 0.64] & +4.79\% [3.72, 6.25] \\
+M3 & 27 & Yes & +0.12\% [0.00, 0.34] & +14.57\% [3.63, 28.67] \\
+\bottomrule
+\end{tabular}
+\end{table}

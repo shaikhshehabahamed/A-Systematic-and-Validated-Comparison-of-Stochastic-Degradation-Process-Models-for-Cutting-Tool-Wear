@@ -1,0 +1,4 @@
+Test family,n tests,"Significant (uncorrected, α=.05)",Significant (BH-FDR corrected),Conclusion changed
+Vuong pairwise family comparisons (9 tests: 3 machines x 3 pairs),123,58,20,Yes
+Per-tool power vs. stationary (9 tests: one per tool),9,0,0,No
+Per-tool power vs. siblings (9 tests: one per tool),9,0,0,No

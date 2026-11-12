@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Ground-truth (n=3 tools/machine; wide CIs reflect this) vs. process-implied restricted-mean time to first failure, for Gamma, Inverse Gaussian, and the Generalized Inverse Gaussian upgrade (Table 1/S14). A machine with 0 observed failures (fully right-censored) has its ground-truth MTTFF equal to the largest censored observation time -- a lower bound on the true mean, not a full estimate, unlike a row with at least one observed failure; the `observed failures' column flags this rather than leaving every row looking like the same kind of estimate. Process-implied MTTFF exceeds ground truth on every machine, consistent with this: the ground-truth RMST is truncated at each machine's observation horizon while the Monte Carlo simulation runs every trajectory to actual threshold-crossing, so some of the gap (all of it, for a fully-censored machine) is expected from the estimands' definitions rather than a modeling discrepancy. MTTFF point estimates otherwise agree closely across all three families despite their differing AIC/BIC ranking (Table~1); near-term conditional failure risk (Figure~3, Table~S7) agrees closely too. The practical stakes of family choice are concentrated in maintenance-policy timing (Table~4), not this point estimate.}
+\label{tab:reliability-translation}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Machine & Ground truth: observed failures & Ground truth MTTFF (s) & 95\% CI & Gamma-implied MTTFF (s) & 95\% CI & IG-implied MTTFF (s) & 95\% CI & GIG-implied MTTFF (s) & 95\% CI \\
+\midrule
+M1 & 2/3 & 3538 & [3376, 3619] & 3680 & [3611, 3751] & 3689 & [3629, 3746] & 3826 & [3753, 3896] \\
+M2 & 0/3 (fully censored) & 5181 & [5171, 5181] & 5617 & [5519, 5718] & 5549 & [5463, 5634] & 5663 & [5578, 5759] \\
+M3 & 3/3 & 3374 & [3323, 3446] & 3624 & [3585, 3665] & 3654 & [3617, 3689] & 3767 & [3715, 3821] \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Moving-block bootstrap (Kunsch, 1989) distribution of the AIC gap between Gamma and Inverse Gaussian, resampling overlapping 8-window blocks independently within each tool's own sequence and pooling the three tools' resampled sequences for a joint refit -- preserving short-range within-tool serial structure, unlike Table~S4's plain i.i.d. window resampling, while still varying within-tool composition across replicates, unlike Table~S16's whole-tool blocks. A third, complementary check on the same point estimate.}
+\label{tab:moving-block-bootstrap-aic-gap}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Machine & Block length & n draws & N tools used & Mean gap (Gamma-IG) & Std & 95\% CI & Draws favoring IG \\
+\midrule
+M1 & 8 & 25 & 3 & 6.06 & 12.68 & [-18.17, 21.97] & 76\% \\
+M2 & 8 & 25 & 3 & 3.58 & 9.52 & [-11.63, 20.22] & 52\% \\
+M3 & 8 & 25 & 3 & 6.40 & 8.26 & [-3.02, 22.52] & 68\% \\
+\bottomrule
+\end{tabular}
+\end{table}

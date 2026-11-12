@@ -1,0 +1,31 @@
+Machine,True family,Recovery rate,95% CI,Usable replicates,Mean windows dropped,Most confused with
+M1,Gamma,17%,"[3%, 56%]",6/6,0.0%,Random-effects Gamma
+M1,Inverse Gaussian,83%,"[44%, 97%]",6/6,0.0%,Random-effects Inverse Gaussian
+M1,Wiener,0%,"[0%, 39%]",6/6,6.8%,Truncated Wiener
+M1,Truncated Wiener,83%,"[44%, 97%]",6/6,0.0%,State-dependent Gamma
+M1,State-dependent Gamma,0%,"[0%, 39%]",6/6,0.0%,Truncated Wiener
+M1,State-dependent Inverse Gaussian,33%,"[10%, 70%]",6/6,0.0%,Random-effects Inverse Gaussian
+M1,Random-effects Gamma,33%,"[10%, 70%]",6/6,0.0%,Truncated Wiener
+M1,Random-effects Inverse Gaussian,50%,"[19%, 81%]",6/6,0.0%,State-dependent Inverse Gaussian
+M1,Multi-stage Wiener,100%,"[61%, 100%]",6/6,2.6%,-
+M1,Generalized Inverse Gaussian,50%,"[19%, 81%]",6/6,0.0%,Inverse Gaussian
+M2,Gamma,0%,"[0%, 39%]",6/6,0.0%,Random-effects Gamma
+M2,Inverse Gaussian,50%,"[19%, 81%]",6/6,0.0%,Generalized Inverse Gaussian
+M2,Wiener,0%,"[0%, 39%]",6/6,9.9%,Truncated Wiener
+M2,Truncated Wiener,83%,"[44%, 97%]",6/6,0.0%,State-dependent Gamma
+M2,State-dependent Gamma,0%,"[0%, 39%]",6/6,0.0%,Random-effects Gamma
+M2,State-dependent Inverse Gaussian,33%,"[10%, 70%]",6/6,0.0%,Random-effects Inverse Gaussian
+M2,Random-effects Gamma,100%,"[61%, 100%]",6/6,0.0%,-
+M2,Random-effects Inverse Gaussian,0%,"[0%, 39%]",6/6,0.0%,Inverse Gaussian
+M2,Multi-stage Wiener,100%,"[61%, 100%]",6/6,6.5%,-
+M2,Generalized Inverse Gaussian,67%,"[30%, 90%]",6/6,0.0%,Inverse Gaussian
+M3,Gamma,33%,"[10%, 70%]",6/6,0.0%,Generalized Inverse Gaussian
+M3,Inverse Gaussian,67%,"[30%, 90%]",6/6,0.0%,State-dependent Inverse Gaussian
+M3,Wiener,0%,"[0%, 39%]",6/6,9.7%,Truncated Wiener
+M3,Truncated Wiener,67%,"[30%, 90%]",6/6,0.0%,Gamma
+M3,State-dependent Gamma,17%,"[3%, 56%]",6/6,0.0%,Truncated Wiener
+M3,State-dependent Inverse Gaussian,67%,"[30%, 90%]",6/6,0.0%,Random-effects Inverse Gaussian
+M3,Random-effects Gamma,0%,"[0%, 39%]",6/6,0.0%,Gamma
+M3,Random-effects Inverse Gaussian,33%,"[10%, 70%]",6/6,0.0%,State-dependent Inverse Gaussian
+M3,Multi-stage Wiener,100%,"[61%, 100%]",6/6,3.0%,-
+M3,Generalized Inverse Gaussian,67%,"[30%, 90%]",6/6,0.0%,Inverse Gaussian

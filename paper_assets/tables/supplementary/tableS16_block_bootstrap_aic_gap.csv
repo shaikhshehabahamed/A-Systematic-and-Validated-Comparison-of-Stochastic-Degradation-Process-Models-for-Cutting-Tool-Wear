@@ -1,0 +1,4 @@
+Machine,n draws,Exact?,Mean gap (Gamma-IG),Std,95% CI,Draws favoring IG
+M1,27,Yes,18.70,4.39,"[11.96, 25.74]",100%
+M2,27,Yes,19.09,2.19,"[14.57, 21.56]",100%
+M3,27,Yes,22.86,4.22,"[14.83, 29.32]",100%

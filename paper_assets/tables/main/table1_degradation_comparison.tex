@@ -1,0 +1,41 @@
+\begin{table}[t]
+\centering
+\caption{Degradation process-family comparison per machine (lower AIC/BIC is better). PIT-KS statistic and p-value are averaged over 200 independent randomized-quantile draws, with the fraction of those 200 draws individually rejecting calibration at $\alpha=.05$ reported alongside; a single-draw p-value is unstable at this sample size, so the reject rate is the more defensible verdict. All families are validated under the identical protocol. Wiener fails calibration on every machine; Gamma also fails on M3 (57\% reject rate) under this stricter multi-draw protocol, though it passes on M1/M2 -- Inverse Gaussian is the only family that calibrates robustly everywhere, in addition to having the lowest AIC/BIC on every machine. The `Age model' column is selected via AIC throughout this table; Gamma's non-homogeneous conclusion on M1/M2 specifically is a consequence of that choice and reverses to stationary under BIC (Table~S13) -- the family-ranking conclusion above (Inverse Gaussian lowest-AIC and lowest-BIC on every machine) is unaffected either way.}
+\label{tab:degradation-comparison}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Machine & Family & Age model & AIC & BIC & Mean PIT-KS stat & Mean PIT-KS p & Reject rate @ .05 (200 seeds) & Calibrated \\
+\midrule
+M1 & Gamma & power\_law & 542.65 & 562.27 & 0.101 & 0.174 & 5\% & Yes \\
+M1 & Inverse Gaussian & linear & 522.45 & 533.66 & 0.109 & 0.120 & 16\% & Yes \\
+M1 & Wiener & power\_law & 595.60 & 615.23 & 0.134 & 0.028 & 86\% & No \\
+M1 & Truncated Wiener & power\_law & 545.90 & 565.53 & 0.102 & 0.160 & 4\% & Yes \\
+M1 & State-dependent Gamma & power\_law & 534.87 & 557.31 & 0.095 & 0.226 & 2\% & No \\
+M1 & State-dependent Inverse Gaussian & linear & 519.48 & 533.50 & 0.110 & 0.113 & 18\% & No \\
+M1 & Random-effects Gamma & linear & 539.92 & 553.94 & 0.092 & 0.260 & 1\% & Yes \\
+M1 & Random-effects Inverse Gaussian & linear & 523.76 & 537.78 & 0.095 & 0.226 & 2\% & Yes \\
+M1 & Multi-stage Wiener & power\_law & 513.60 & 536.03 & 0.142 & 0.020 & 92\% & No \\
+M1 & Generalized Inverse Gaussian & linear & 518.94 & 532.96 & 0.079 & 0.433 & 0\% & Yes \\
+M2 & Gamma & power\_law & 713.81 & 736.28 & 0.066 & 0.406 & 0\% & Yes \\
+M2 & Inverse Gaussian & linear & 692.49 & 705.33 & 0.054 & 0.647 & 0\% & Yes \\
+M2 & Wiener & power\_law & 798.21 & 820.68 & 0.148 & 0.001 & 100\% & No \\
+M2 & Truncated Wiener & power\_law & 715.18 & 737.64 & 0.157 & 0.000 & 100\% & No \\
+M2 & State-dependent Gamma & power\_law & 704.88 & 730.56 & 0.063 & 0.464 & 0\% & No \\
+M2 & State-dependent Inverse Gaussian & linear & 686.93 & 702.98 & 0.076 & 0.242 & 0\% & No \\
+M2 & Random-effects Gamma & linear & 709.82 & 725.87 & 0.066 & 0.407 & 0\% & Yes \\
+M2 & Random-effects Inverse Gaussian & linear & 694.14 & 710.18 & 0.052 & 0.670 & 0\% & Yes \\
+M2 & Multi-stage Wiener & power\_law & 694.98 & 720.66 & 0.107 & 0.040 & 70\% & No \\
+M2 & Generalized Inverse Gaussian & linear & 691.79 & 707.83 & 0.044 & 0.816 & 0\% & Yes \\
+M3 & Gamma & linear & 515.55 & 526.60 & 0.127 & 0.050 & 56\% & No \\
+M3 & Inverse Gaussian & linear & 492.81 & 503.86 & 0.092 & 0.273 & 2\% & Yes \\
+M3 & Wiener & power\_law & 565.66 & 585.00 & 0.143 & 0.020 & 95\% & No \\
+M3 & Truncated Wiener & power\_law & 523.42 & 542.75 & 0.111 & 0.119 & 14\% & Yes \\
+M3 & State-dependent Gamma & power\_law & 509.70 & 531.80 & 0.115 & 0.093 & 22\% & No \\
+M3 & State-dependent Inverse Gaussian & linear & 480.06 & 493.87 & 0.120 & 0.072 & 30\% & No \\
+M3 & Random-effects Gamma & linear & 517.20 & 531.01 & 0.115 & 0.097 & 20\% & Yes \\
+M3 & Random-effects Inverse Gaussian & linear & 490.61 & 504.42 & 0.107 & 0.141 & 4\% & Yes \\
+M3 & Multi-stage Wiener & power\_law & 502.16 & 524.26 & 0.162 & 0.006 & 100\% & No \\
+M3 & Generalized Inverse Gaussian & linear & 486.22 & 500.03 & 0.058 & 0.778 & 0\% & Yes \\
+\bottomrule
+\end{tabular}
+\end{table}

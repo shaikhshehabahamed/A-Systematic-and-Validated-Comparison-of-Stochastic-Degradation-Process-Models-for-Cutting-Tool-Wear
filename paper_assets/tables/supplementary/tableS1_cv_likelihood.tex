@@ -1,0 +1,41 @@
+\begin{table}[t]
+\centering
+\caption{Leave-one-tool-out out-of-sample predictive log-likelihood (higher is better). Complements the in-sample AIC comparison (Table~1) with genuinely held-out evidence: each tool is scored under a model fit only on the other two tools of its machine, using the median (eta, power) across the trained tools as the prediction for the unseen tool. With only 3 tools per machine, each fold trains on just 2 -- removing one tool barely changes a 2-tool fit, so this evidence, while genuinely out-of-sample, is not strongly decorrelated from the in-sample comparison and should be read as a modest additional check, not independent confirmation at the strength Table~S9's model-recovery study provides.}
+\label{tab:cv-likelihood}
+\begin{tabular}{lrrrr}
+\toprule
+Machine & Family & CV total log-lik & CV mean log-lik/window & Best \\
+\midrule
+M1 & Gamma & -269.74 & -2.2110 & No \\
+M1 & Inverse Gaussian & -264.40 & -2.1672 & No \\
+M1 & Wiener & -292.61 & -2.3985 & No \\
+M1 & Truncated Wiener & -267.38 & -2.1917 & No \\
+M1 & State-dependent Gamma & -264.37 & -2.1669 & No \\
+M1 & State-dependent Inverse Gaussian & -260.82 & -2.1379 & No \\
+M1 & Random-effects Gamma & -269.69 & -2.2105 & No \\
+M1 & Random-effects Inverse Gaussian & -264.77 & -2.1702 & No \\
+M1 & Multi-stage Wiener & -253.19 & -2.0753 & Yes \\
+M1 & Generalized Inverse Gaussian & -264.23 & -2.1658 & No \\
+M2 & Gamma & -358.19 & -1.9573 & No \\
+M2 & Inverse Gaussian & -347.26 & -1.8976 & No \\
+M2 & Wiener & -395.03 & -2.1586 & No \\
+M2 & Truncated Wiener & -351.41 & -1.9203 & No \\
+M2 & State-dependent Gamma & -350.17 & -1.9135 & No \\
+M2 & State-dependent Inverse Gaussian & -346.96 & -1.8960 & No \\
+M2 & Random-effects Gamma & -354.82 & -1.9389 & No \\
+M2 & Random-effects Inverse Gaussian & -348.63 & -1.9051 & No \\
+M2 & Multi-stage Wiener & -343.29 & -1.8759 & Yes \\
+M2 & Generalized Inverse Gaussian & -348.39 & -1.9038 & No \\
+M3 & Gamma & -257.72 & -2.2027 & No \\
+M3 & Inverse Gaussian & -245.01 & -2.0941 & No \\
+M3 & Wiener & -294.35 & -2.5158 & No \\
+M3 & Truncated Wiener & -263.32 & -2.2506 & No \\
+M3 & State-dependent Gamma & -255.33 & -2.1823 & No \\
+M3 & State-dependent Inverse Gaussian & -238.51 & -2.0385 & Yes \\
+M3 & Random-effects Gamma & -258.17 & -2.2066 & No \\
+M3 & Random-effects Inverse Gaussian & -243.26 & -2.0791 & No \\
+M3 & Multi-stage Wiener & -257.38 & -2.1998 & No \\
+M3 & Generalized Inverse Gaussian & -240.29 & -2.0537 & No \\
+\bottomrule
+\end{tabular}
+\end{table}

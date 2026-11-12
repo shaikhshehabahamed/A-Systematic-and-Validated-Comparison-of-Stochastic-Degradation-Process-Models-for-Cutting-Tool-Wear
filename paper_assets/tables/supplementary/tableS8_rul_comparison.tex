@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Point RUL prediction accuracy: IG-implied (virtual-age inversion, wear only, leave-one-tool-out) vs. the production conformal Random Forest (wear + signal features, same protocol). `Fixed' rescores IG against the dataset-wide 150\textmu m EOL threshold; `matched' rescores against each held-out tool's own actual observed terminal wear (145-160\textmu m across tools), removing the threshold-mismatch confound. The two ratio columns are close for 8 of 9 tools ($\leq$7\% relative change), confirming the RF's accuracy advantage there is genuinely feature-richness, not a threshold-scoring artifact. Tool 9 is the exception (3.23x fixed vs. 2.54x matched, $-$21.4\%): it has the highest terminal wear of all 9 tools (160\textmu m, the dataset maximum), i.e. it is furthest from the fixed 150\textmu m assumption, so it shows the largest correction from removing that confound -- consistent with, not contradicting, the overall conclusion. Note the RF's feature set includes signal channels affected by a documented sensor aliasing defect (disabled anti-aliasing filter) on M2 tools 4-6 specifically -- this does not touch the wear/time-only degradation-process analysis (Tables 1-4) at all, but is a relevant caveat here since it could inflate or deflate the RF's accuracy on those three tools specifically relative to a defect-free sensor.}
+\label{tab:rul-comparison}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Tool & Machine & Conformal RF RMSE (s) & IG RMSE, fixed 150\textmu{}m (s) & Ratio, fixed & Matched threshold (\textmu{}m) & IG RMSE, matched threshold (s) & Ratio, matched \\
+\midrule
+1 & 1 & 112.0 & 285.1 & 2.55x & 158 & 293.3 & 2.62x \\
+2 & 1 & 248.4 & 436.5 & 1.76x & 145 & 439.7 & 1.77x \\
+3 & 1 & 272.1 & 392.9 & 1.44x & 152 & 373.6 & 1.37x \\
+4 & 2 & 135.4 & 561.3 & 4.14x & 149 & 571.2 & 4.22x \\
+5 & 2 & 133.3 & 567.1 & 4.26x & 148 & 580.7 & 4.36x \\
+6 & 2 & 137.8 & 660.7 & 4.79x & 147 & 685.1 & 4.97x \\
+7 & 3 & 132.1 & 275.9 & 2.09x & 153 & 294.8 & 2.23x \\
+8 & 3 & 182.5 & 370.4 & 2.03x & 150 & 370.4 & 2.03x \\
+9 & 3 & 120.3 & 249.6 & 2.07x & 160 & 374.4 & 3.11x \\
+\bottomrule
+\end{tabular}
+\end{table}

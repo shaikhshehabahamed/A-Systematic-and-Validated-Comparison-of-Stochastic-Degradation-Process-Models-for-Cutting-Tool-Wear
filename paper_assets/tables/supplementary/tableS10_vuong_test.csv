@@ -1,0 +1,10 @@
+Machine,Comparison,z (cluster-robust),p (cluster-robust),z (naive i.i.d.),p (naive i.i.d.),Favored (cluster-robust)
+M1,Gamma vs. IG,-3.79,0.0631,-1.63,0.1041,inconclusive
+M1,IG vs. Wiener,+13.36,0.0056,+3.71,0.0002,Inverse Gaussian
+M1,Gamma vs. Wiener,+5.89,0.0277,+4.76,0.0000,Gamma
+M2,Gamma vs. IG,-10.23,0.0094,-1.77,0.0768,Inverse Gaussian
+M2,IG vs. Wiener,+198.34,0.0000,+4.72,0.0000,Inverse Gaussian
+M2,Gamma vs. Wiener,+52.58,0.0004,+6.01,0.0000,Gamma
+M3,Gamma vs. IG,-6.26,0.0246,-3.95,0.0001,Inverse Gaussian
+M3,IG vs. Wiener,+8.07,0.0150,+4.00,0.0001,Inverse Gaussian
+M3,Gamma vs. Wiener,+8.41,0.0139,+2.35,0.0189,Gamma

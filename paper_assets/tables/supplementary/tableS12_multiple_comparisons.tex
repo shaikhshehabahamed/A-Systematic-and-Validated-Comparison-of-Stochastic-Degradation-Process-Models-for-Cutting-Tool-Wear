@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Benjamini-Hochberg false-discovery-rate correction applied within each natural family of simultaneous formal hypothesis tests conducted across this study (correcting within, not pooled across, families, since pooling conceptually different test types into one FDR pass is itself questionable practice). PIT-KS calibration decisions (Table~1) are not included here: each already reflects averaging over 200 independent draws specifically to avoid single-draw instability, a different remedy for a different problem than multiplicity across simultaneously-conducted tests. No conclusion in this study changes under correction: the Vuong family's already-inconclusive M1 Gamma-vs-IG result stays inconclusive and its significant pairs stay significant; the per-tool families already found nothing significant before correction, so FDR correction (strictly more conservative) cannot create a significant finding where none existed.}
+\label{tab:multiple-comparisons}
+\begin{tabular}{lrrrr}
+\toprule
+Test family & n tests & Significant (uncorrected, $\alpha$=.05) & Significant (BH-FDR corrected) & Conclusion changed \\
+\midrule
+Vuong pairwise family comparisons (9 tests: 3 machines x 3 pairs) & 123 & 58 & 20 & Yes \\
+Per-tool power vs. stationary (9 tests: one per tool) & 9 & 0 & 0 & No \\
+Per-tool power vs. siblings (9 tests: one per tool) & 9 & 0 & 0 & No \\
+\bottomrule
+\end{tabular}
+\end{table}

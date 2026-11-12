@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Barlow-Proschan age-replacement optimal preventive-replacement age T* under each family's implied hazard, and the \% cost-rate regret of using Gamma's, Wiener's, or GIG's optimal policy if Inverse Gaussian (this table's reference family, per the original 3-family study's convention) is true. Illustrative cost ratio $c_{cm}/c_{pm}=3$ (Table~S6 sweeps 2-10); report ratios/regret, not absolute currency (the dataset has no cost data). Regret from choosing between the statistically valid families (Gamma/IG/GIG) is consistently small; regret from the statistically invalid family (Wiener) is consistently larger.}
+\label{tab:maintenance-cost}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Machine & Gamma T* (s) & IG T* (s) & Wiener T* (s) & GIG T* (s) & Regret using Gamma policy & Regret using Wiener policy & Regret using GIG policy \\
+\midrule
+M1 & 2605 & 2664 & 2450 & 2605 & +0.2\% & +2.9\% & +0.2\% \\
+M2 & 3866 & 4002 & 3536 & 4002 & +0.3\% & +4.5\% & +0.0\% \\
+M3 & 2858 & 2858 & 2314 & 2664 & +0.0\% & +14.8\% & +2.3\% \\
+\bottomrule
+\end{tabular}
+\end{table}
