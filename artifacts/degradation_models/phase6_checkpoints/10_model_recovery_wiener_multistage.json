@@ -1,0 +1,68 @@
+{
+  "M1": {
+    "wiener_multistage": {
+      "n_replicates_requested": 6,
+      "n_replicates_success": 6,
+      "recovery_rate": 1.0,
+      "recovery_rate_ci_lo": 0.6096569663469354,
+      "recovery_rate_ci_hi": 0.9999999999999999,
+      "selected_counts": {
+        "gamma": 0,
+        "inverse_gaussian": 0,
+        "wiener": 0,
+        "wiener_truncated": 0,
+        "gamma_state": 0,
+        "inverse_gaussian_state": 0,
+        "gamma_random_effects": 0,
+        "inverse_gaussian_random_effects": 0,
+        "wiener_multistage": 6,
+        "gig": 0
+      },
+      "mean_frac_windows_dropped": 0.025956284153005493
+    }
+  },
+  "M2": {
+    "wiener_multistage": {
+      "n_replicates_requested": 6,
+      "n_replicates_success": 6,
+      "recovery_rate": 1.0,
+      "recovery_rate_ci_lo": 0.6096569663469354,
+      "recovery_rate_ci_hi": 0.9999999999999999,
+      "selected_counts": {
+        "gamma": 0,
+        "inverse_gaussian": 0,
+        "wiener": 0,
+        "wiener_truncated": 0,
+        "gamma_state": 0,
+        "inverse_gaussian_state": 0,
+        "gamma_random_effects": 0,
+        "inverse_gaussian_random_effects": 0,
+        "wiener_multistage": 6,
+        "gig": 0
+      },
+      "mean_frac_windows_dropped": 0.0646630236794171
+    }
+  },
+  "M3": {
+    "wiener_multistage": {
+      "n_replicates_requested": 6,
+      "n_replicates_success": 6,
+      "recovery_rate": 1.0,
+      "recovery_rate_ci_lo": 0.6096569663469354,
+      "recovery_rate_ci_hi": 0.9999999999999999,
+      "selected_counts": {
+        "gamma": 0,
+        "inverse_gaussian": 0,
+        "wiener": 0,
+        "wiener_truncated": 0,
+        "gamma_state": 0,
+        "inverse_gaussian_state": 0,
+        "gamma_random_effects": 0,
+        "inverse_gaussian_random_effects": 0,
+        "wiener_multistage": 6,
+        "gig": 0
+      },
+      "mean_frac_windows_dropped": 0.02991452991452992
+    }
+  }
+}

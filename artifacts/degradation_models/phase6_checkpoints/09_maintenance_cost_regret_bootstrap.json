@@ -1,0 +1,86 @@
+{
+  "M1": {
+    "n_draws": 27,
+    "exact_enumeration": true,
+    "gamma": {
+      "mean_regret_pct": 0.5591696031784461,
+      "std_regret_pct": 0.5682749251128395,
+      "ci_lo": 0.0,
+      "ci_hi": 1.5505565024172805
+    },
+    "wiener": {
+      "mean_regret_pct": 3.695115438649455,
+      "std_regret_pct": 2.437765246168351,
+      "ci_lo": 0.9279282516048978,
+      "ci_hi": 7.433540418316521
+    },
+    "wiener_truncated": {
+      "mean_regret_pct": 100.46049969064298,
+      "std_regret_pct": 13.161860308415754,
+      "ci_lo": 79.85424939233832,
+      "ci_hi": 119.66500132320546
+    },
+    "gig": {
+      "mean_regret_pct": 17.464253881803398,
+      "std_regret_pct": 41.123027553907306,
+      "ci_lo": 0.0,
+      "ci_hi": 116.94150089126462
+    }
+  },
+  "M2": {
+    "n_draws": 27,
+    "exact_enumeration": true,
+    "gamma": {
+      "mean_regret_pct": 0.37427989885990515,
+      "std_regret_pct": 0.1790912731549455,
+      "ci_lo": 0.08530718758838561,
+      "ci_hi": 0.6366233199590398
+    },
+    "wiener": {
+      "mean_regret_pct": 4.789775534813625,
+      "std_regret_pct": 0.7522012659132071,
+      "ci_lo": 3.723346982284833,
+      "ci_hi": 6.2511937950210035
+    },
+    "wiener_truncated": {
+      "mean_regret_pct": 65.89566476371125,
+      "std_regret_pct": 8.224424667477857,
+      "ci_lo": 51.238804394485655,
+      "ci_hi": 80.48236221515879
+    },
+    "gig": {
+      "mean_regret_pct": 9.022048049208955,
+      "std_regret_pct": 21.497156149216,
+      "ci_lo": 0.0,
+      "ci_hi": 61.102362418123526
+    }
+  },
+  "M3": {
+    "n_draws": 27,
+    "exact_enumeration": true,
+    "gamma": {
+      "mean_regret_pct": 0.1193624905016087,
+      "std_regret_pct": 0.13009716156607484,
+      "ci_lo": 0.0,
+      "ci_hi": 0.3425138271161666
+    },
+    "wiener": {
+      "mean_regret_pct": 14.574272719618431,
+      "std_regret_pct": 7.491651579753912,
+      "ci_lo": 3.6315644251323667,
+      "ci_hi": 28.668833002873495
+    },
+    "wiener_truncated": {
+      "mean_regret_pct": 118.77531436111506,
+      "std_regret_pct": 14.040632777433885,
+      "ci_lo": 92.79205106727385,
+      "ci_hi": 138.27714033444235
+    },
+    "gig": {
+      "mean_regret_pct": 2.0563560867171264,
+      "std_regret_pct": 1.2770304883208352,
+      "ci_lo": 0.0,
+      "ci_hi": 4.217163727324021
+    }
+  }
+}

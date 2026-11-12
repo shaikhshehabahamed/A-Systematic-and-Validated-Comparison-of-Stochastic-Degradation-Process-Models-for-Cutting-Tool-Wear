@@ -1,0 +1,3241 @@
+{
+  "gamma_params": {
+    "M1": {
+      "model": "nonhomogeneous_gamma_rounded",
+      "schema_version": 3.0,
+      "selected_age_model": "power_law",
+      "beta": 0.5103477701610285,
+      "eta": 34.50768225375845,
+      "power": 0.6858003577465748,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta": 34.50768225375845,
+          "power": 0.6858003577465748,
+          "beta": 0.5103477701610285,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 34.51139920781829,
+          "power": 0.5487177790024946,
+          "beta": 0.5103477701610285,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 29.78366426448476,
+          "power": 0.7511875293509865,
+          "beta": 0.5103477701610285,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122.0,
+      "n_zero_windows": 2.0,
+      "log_lik": -264.32295780777304,
+      "aic": 542.6459156155461,
+      "bic": 562.2740629286789,
+      "nonhomogeneous_aic": 542.6459156155461,
+      "nonhomogeneous_bic": 562.2740629286789,
+      "stationary_aic": 550.1517027131097,
+      "stationary_bic": 561.3677868920427,
+      "machine_id": 1.0,
+      "window_size": 15.0,
+      "wear_scale_um": 160.0,
+      "pit_ks_stat": 0.10110538967359056,
+      "pit_ks_pvalue": 0.17448846554602718,
+      "pit_ks_frac_reject_05": 0.05,
+      "pit_ks_n_seeds": 200.0,
+      "trajectory_rmse_um": 15.307292427897185,
+      "terminal_bias_um": -3.951417082947046,
+      "delta_aic_vs_stationary": 7.505787097563598,
+      "validation_passed": 1.0
+    },
+    "M2": {
+      "model": "nonhomogeneous_gamma_rounded",
+      "schema_version": 3.0,
+      "selected_age_model": "power_law",
+      "beta": 0.4685883433088449,
+      "eta": 23.512788653089018,
+      "power": 0.6448075284918104,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta": 23.512788653089018,
+          "power": 0.6448075284918104,
+          "beta": 0.4685883433088449,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 25.33721398786051,
+          "power": 0.6550367790882216,
+          "beta": 0.4685883433088449,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 21.797073224704146,
+          "power": 0.6342087689835678,
+          "beta": 0.4685883433088449,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183.0,
+      "n_zero_windows": 28.0,
+      "log_lik": -349.9068130911035,
+      "aic": 713.813626182207,
+      "bic": 736.2800292520969,
+      "nonhomogeneous_aic": 713.813626182207,
+      "nonhomogeneous_bic": 736.2800292520969,
+      "stationary_aic": 719.6279080016641,
+      "stationary_bic": 732.4658526130297,
+      "machine_id": 2.0,
+      "window_size": 15.0,
+      "wear_scale_um": 160.0,
+      "pit_ks_stat": 0.06636568248253613,
+      "pit_ks_pvalue": 0.40630745612919916,
+      "pit_ks_frac_reject_05": 0.0,
+      "pit_ks_n_seeds": 200.0,
+      "trajectory_rmse_um": 17.46058553414859,
+      "terminal_bias_um": -2.5934171315702392,
+      "delta_aic_vs_stationary": 5.814281819457051,
+      "validation_passed": 1.0
+    },
+    "M3": {
+      "model": "nonhomogeneous_gamma_rounded",
+      "schema_version": 3.0,
+      "selected_age_model": "linear",
+      "beta": 0.5359437209003388,
+      "eta": 21.760505773812646,
+      "power": 1.0,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta": 21.760505773812646,
+          "power": 1.0,
+          "beta": 0.5359437209003388,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 21.031357815731887,
+          "power": 1.0,
+          "beta": 0.5359437209003388,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 23.57103482682129,
+          "power": 1.0,
+          "beta": 0.5359437209003388,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117.0,
+      "n_zero_windows": 1.0,
+      "log_lik": -253.77740168883693,
+      "aic": 515.5548033776738,
+      "bic": 526.6034991168649,
+      "nonhomogeneous_aic": 519.380002912478,
+      "nonhomogeneous_bic": 538.7152204560622,
+      "stationary_aic": 515.5548033776738,
+      "stationary_bic": 526.6034991168649,
+      "machine_id": 3.0,
+      "window_size": 15.0,
+      "wear_scale_um": 160.0,
+      "pit_ks_stat": 0.12659884675578678,
+      "pit_ks_pvalue": 0.050138634818657095,
+      "pit_ks_frac_reject_05": 0.56,
+      "pit_ks_n_seeds": 200.0,
+      "trajectory_rmse_um": 14.008208718675302,
+      "terminal_bias_um": -1.1047043551467748,
+      "delta_aic_vs_stationary": -3.825199534804142,
+      "validation_passed": 0.0
+    }
+  },
+  "ig_params": {
+    "M1": {
+      "model": "nonhomogeneous_inverse_gaussian_rounded",
+      "schema_version": 2,
+      "selected_age_model": "linear",
+      "beta": 0.3494429916166322,
+      "eta": 15.425953036291501,
+      "power": 1.0,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta": 16.07338070470155,
+          "power": 1.0,
+          "beta": 0.3494429916166322,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 12.054797113181756,
+          "power": 1.0,
+          "beta": 0.3494429916166322,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 15.425953036291501,
+          "power": 1.0,
+          "beta": 0.3494429916166322,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122,
+      "n_zero_windows": 2,
+      "log_lik": -257.2226565872032,
+      "aic": 522.4453131744064,
+      "bic": 533.6613973533393,
+      "nonhomogeneous_aic": 525.602393937209,
+      "nonhomogeneous_bic": 545.2305412503417,
+      "stationary_aic": 522.4453131744064,
+      "stationary_bic": 533.6613973533393,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 1,
+          "eta": 17.6032854304821,
+          "power": 0.9610057921095921,
+          "beta": 0.36892171256684037,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 21.079000043766793,
+          "power": 0.6345285748295902,
+          "beta": 0.36892171256684037,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 15.830557968074926,
+          "power": 1.0102914792702358,
+          "beta": 0.36892171256684037,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 1,
+      "window_size": 15,
+      "pit_ks_stat": 0.10871868515306289,
+      "pit_ks_pvalue": 0.11953382530652945,
+      "pit_ks_frac_reject_05": 0.16,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 17.18953958136417,
+      "terminal_bias_um": -3.1765588383247376,
+      "delta_aic_vs_stationary": -3.157080762802593,
+      "validation_passed": true
+    },
+    "M2": {
+      "model": "nonhomogeneous_inverse_gaussian_rounded",
+      "schema_version": 2,
+      "selected_age_model": "linear",
+      "beta": 0.29444125166152235,
+      "eta": 8.08623446541984,
+      "power": 1.0,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta": 8.08623446541984,
+          "power": 1.0,
+          "beta": 0.29444125166152235,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 9.300561553498689,
+          "power": 1.0,
+          "beta": 0.29444125166152235,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 7.210698481229016,
+          "power": 1.0,
+          "beta": 0.29444125166152235,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183,
+      "n_zero_windows": 28,
+      "log_lik": -342.2461337934871,
+      "aic": 692.4922675869742,
+      "bic": 705.33021219834,
+      "nonhomogeneous_aic": 696.4034594604811,
+      "nonhomogeneous_bic": 718.869862530371,
+      "stationary_aic": 692.4922675869742,
+      "stationary_bic": 705.33021219834,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 4,
+          "eta": 8.215129899098413,
+          "power": 1.0013780104721135,
+          "beta": 0.3021431207599034,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 13.767719211020493,
+          "power": 0.7867098708276442,
+          "beta": 0.3021431207599034,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 6.120529209603069,
+          "power": 1.1109557371921472,
+          "beta": 0.3021431207599034,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 2,
+      "window_size": 15,
+      "pit_ks_stat": 0.05384256535725394,
+      "pit_ks_pvalue": 0.6471098092047792,
+      "pit_ks_frac_reject_05": 0.005,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 19.484773130465744,
+      "terminal_bias_um": -1.2197852707515342,
+      "delta_aic_vs_stationary": -3.9111918735069366,
+      "validation_passed": true
+    },
+    "M3": {
+      "model": "nonhomogeneous_inverse_gaussian_rounded",
+      "schema_version": 2,
+      "selected_age_model": "linear",
+      "beta": 0.46242077784768715,
+      "eta": 18.755157998876687,
+      "power": 1.0,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta": 18.45752939985964,
+          "power": 1.0,
+          "beta": 0.46242077784768715,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 18.755157998876687,
+          "power": 1.0,
+          "beta": 0.46242077784768715,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 20.1635015972315,
+          "power": 1.0,
+          "beta": 0.46242077784768715,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117,
+      "n_zero_windows": 1,
+      "log_lik": -242.40577487148815,
+      "aic": 492.8115497429763,
+      "bic": 503.86024548216733,
+      "nonhomogeneous_aic": 494.18105558573336,
+      "nonhomogeneous_bic": 513.5162731293176,
+      "stationary_aic": 492.8115497429763,
+      "stationary_bic": 503.86024548216733,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 7,
+          "eta": 13.834886832536068,
+          "power": 1.271474188475612,
+          "beta": 0.47974525537198986,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 14.208621575568126,
+          "power": 1.228644211238431,
+          "beta": 0.47974525537198986,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 18.20267990499768,
+          "power": 1.1069826657903232,
+          "beta": 0.47974525537198986,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 3,
+      "window_size": 15,
+      "pit_ks_stat": 0.09249556025834511,
+      "pit_ks_pvalue": 0.2728297046411845,
+      "pit_ks_frac_reject_05": 0.015,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 14.904109648393353,
+      "terminal_bias_um": -0.8741118846451646,
+      "delta_aic_vs_stationary": -1.3695058427570643,
+      "validation_passed": true
+    }
+  },
+  "wiener_params": {
+    "M1": {
+      "model": "nonhomogeneous_wiener_rounded",
+      "schema_version": 2,
+      "selected_age_model": "power_law",
+      "beta": 0.4783804051074452,
+      "eta": 34.2431863846173,
+      "power": 0.5774690825961505,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta": 34.2431863846173,
+          "power": 0.6022382887290846,
+          "beta": 0.4783804051074452,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 36.48651769489936,
+          "power": 0.5657661848527846,
+          "beta": 0.4783804051074452,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 33.530792162467016,
+          "power": 0.5774690825961505,
+          "beta": 0.4783804051074452,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122,
+      "n_zero_windows": 2,
+      "log_lik": -290.8015596088796,
+      "aic": 595.6031192177592,
+      "bic": 615.231266530892,
+      "nonhomogeneous_aic": 595.6031192177592,
+      "nonhomogeneous_bic": 615.231266530892,
+      "stationary_aic": 680.1972169749738,
+      "stationary_bic": 691.4133011539068,
+      "mean_p_negative_increment": 0.1114284173638909,
+      "max_p_negative_increment": 0.174359786312825,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 1,
+          "eta": 34.2431863846173,
+          "power": 0.6022382887290846,
+          "beta": 0.4783804051074452,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 36.48651769489936,
+          "power": 0.5657661848527846,
+          "beta": 0.4783804051074452,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 33.530792162467016,
+          "power": 0.5774690825961505,
+          "beta": 0.4783804051074452,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 1,
+      "window_size": 15,
+      "pit_ks_stat": 0.1342527649144171,
+      "pit_ks_pvalue": 0.028277868692796096,
+      "pit_ks_frac_reject_05": 0.855,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 18.31283103719269,
+      "terminal_bias_um": -3.4977398304009455,
+      "delta_aic_vs_stationary": 84.59409775721463,
+      "validation_passed": false
+    },
+    "M2": {
+      "model": "nonhomogeneous_wiener_rounded",
+      "schema_version": 2,
+      "selected_age_model": "power_law",
+      "beta": 0.49199938383005526,
+      "eta": 31.396357693220438,
+      "power": 0.5284740072075396,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta": 31.396357693220438,
+          "power": 0.5284740072075396,
+          "beta": 0.49199938383005526,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 28.360066523797094,
+          "power": 0.5310307903029504,
+          "beta": 0.49199938383005526,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 36.425781973847435,
+          "power": 0.463277441155524,
+          "beta": 0.49199938383005526,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183,
+      "n_zero_windows": 28,
+      "log_lik": -392.10699608179686,
+      "aic": 798.2139921635937,
+      "bic": 820.6803952334836,
+      "nonhomogeneous_aic": 798.2139921635937,
+      "nonhomogeneous_bic": 820.6803952334836,
+      "stationary_aic": 965.2318199180429,
+      "stationary_bic": 978.0697645294085,
+      "mean_p_negative_increment": 0.16271069857327278,
+      "max_p_negative_increment": 0.23236355628875766,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 4,
+          "eta": 31.396357693220438,
+          "power": 0.5284740072075396,
+          "beta": 0.49199938383005526,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 28.360066523797094,
+          "power": 0.5310307903029504,
+          "beta": 0.49199938383005526,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 36.425781973847435,
+          "power": 0.463277441155524,
+          "beta": 0.49199938383005526,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 2,
+      "window_size": 15,
+      "pit_ks_stat": 0.14785845987355656,
+      "pit_ks_pvalue": 0.0010914267383655763,
+      "pit_ks_frac_reject_05": 1.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 20.721568809617956,
+      "terminal_bias_um": -2.2180910772207576,
+      "delta_aic_vs_stationary": 167.01782775444917,
+      "validation_passed": false
+    },
+    "M3": {
+      "model": "nonhomogeneous_wiener_rounded",
+      "schema_version": 2,
+      "selected_age_model": "power_law",
+      "beta": 0.5203194629550648,
+      "eta": 37.504130158809055,
+      "power": 0.6403980335917243,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta": 40.43121204884848,
+          "power": 0.6112376726469284,
+          "beta": 0.5203194629550648,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 16.672385260991305,
+          "power": 0.992149617821949,
+          "beta": 0.5203194629550648,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 37.504130158809055,
+          "power": 0.6403980335917243,
+          "beta": 0.5203194629550648,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117,
+      "n_zero_windows": 1,
+      "log_lik": -275.830531464655,
+      "aic": 565.66106292931,
+      "bic": 584.9962804728943,
+      "nonhomogeneous_aic": 565.66106292931,
+      "nonhomogeneous_bic": 584.9962804728943,
+      "stationary_aic": 616.5240047735348,
+      "stationary_bic": 627.5727005127258,
+      "mean_p_negative_increment": 0.09760201204376663,
+      "max_p_negative_increment": 0.1402744269700747,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 7,
+          "eta": 40.43121204884848,
+          "power": 0.6112376726469284,
+          "beta": 0.5203194629550648,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 16.672385260991305,
+          "power": 0.992149617821949,
+          "beta": 0.5203194629550648,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 37.504130158809055,
+          "power": 0.6403980335917243,
+          "beta": 0.5203194629550648,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 3,
+      "window_size": 15,
+      "pit_ks_stat": 0.1426689263885732,
+      "pit_ks_pvalue": 0.019792418548876797,
+      "pit_ks_frac_reject_05": 0.95,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 19.379816500735707,
+      "terminal_bias_um": -1.0426248566518836,
+      "delta_aic_vs_stationary": 50.86294184422479,
+      "validation_passed": false
+    }
+  },
+  "wiener_truncated_params": {
+    "M1": {
+      "model": "nonhomogeneous_truncated_wiener_rounded",
+      "schema_version": 1,
+      "selected_age_model": "power_law",
+      "beta": 0.019295881945307274,
+      "eta": 0.18097802637401209,
+      "power": 0.45515608126402185,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta": 0.18097802637401209,
+          "power": 0.4787971345779476,
+          "beta": 0.019295881945307274,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 0.19521950417494682,
+          "power": 0.4450060663470729,
+          "beta": 0.019295881945307274,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 0.17252112095208283,
+          "power": 0.45515608126402185,
+          "beta": 0.019295881945307274,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122,
+      "n_zero_windows": 2,
+      "log_lik": -265.9497350922825,
+      "aic": 545.899470184565,
+      "bic": 565.5276174976977,
+      "nonhomogeneous_aic": 545.899470184565,
+      "nonhomogeneous_bic": 565.5276174976977,
+      "stationary_aic": 589.8251144073638,
+      "stationary_bic": 601.0411985862968,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 1,
+          "eta": 0.18097802637401209,
+          "power": 0.4787971345779476,
+          "beta": 0.019295881945307274,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 0.19521950417494682,
+          "power": 0.4450060663470729,
+          "beta": 0.019295881945307274,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 0.17252112095208283,
+          "power": 0.45515608126402185,
+          "beta": 0.019295881945307274,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "mean_p_negative_increment": 0.0,
+      "max_p_negative_increment": 0.0,
+      "machine_id": 1,
+      "window_size": 15,
+      "pit_ks_stat": 0.1022512620633552,
+      "pit_ks_pvalue": 0.16018379462083465,
+      "pit_ks_frac_reject_05": 0.035,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 14.892697199754705,
+      "terminal_bias_um": -3.6695255997089666,
+      "delta_aic_vs_stationary": 43.92564422279884,
+      "validation_passed": true
+    },
+    "M2": {
+      "model": "nonhomogeneous_truncated_wiener_rounded",
+      "schema_version": 1,
+      "selected_age_model": "power_law",
+      "beta": 0.00010000000034517749,
+      "eta": 3.993892787618638e-06,
+      "power": 0.3968759343089535,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta": 3.993892787618638e-06,
+          "power": 0.3968759343089535,
+          "beta": 0.00010000000034517749,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 3.272002986391507e-06,
+          "power": 0.4140933144632866,
+          "beta": 0.00010000000034517749,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 5.092008732134573e-06,
+          "power": 0.3215252320695885,
+          "beta": 0.00010000000034517749,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183,
+      "n_zero_windows": 28,
+      "log_lik": -350.5880526086875,
+      "aic": 715.176105217375,
+      "bic": 737.642508287265,
+      "nonhomogeneous_aic": 715.176105217375,
+      "nonhomogeneous_bic": 737.642508287265,
+      "stationary_aic": 823.431885076653,
+      "stationary_bic": 836.2698296880187,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 4,
+          "eta": 3.993892787618638e-06,
+          "power": 0.3968759343089535,
+          "beta": 0.00010000000034517749,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 3.272002986391507e-06,
+          "power": 0.4140933144632866,
+          "beta": 0.00010000000034517749,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 5.092008732134573e-06,
+          "power": 0.3215252320695885,
+          "beta": 0.00010000000034517749,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "mean_p_negative_increment": 0.0,
+      "max_p_negative_increment": 0.0,
+      "machine_id": 2,
+      "window_size": 15,
+      "pit_ks_stat": 0.15738951917931224,
+      "pit_ks_pvalue": 0.0004089293299659677,
+      "pit_ks_frac_reject_05": 1.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 20.174009662688402,
+      "terminal_bias_um": 6.646049181119831,
+      "delta_aic_vs_stationary": 108.25577985927794,
+      "validation_passed": false
+    },
+    "M3": {
+      "model": "nonhomogeneous_truncated_wiener_rounded",
+      "schema_version": 1,
+      "selected_age_model": "power_law",
+      "beta": 0.05270423807892034,
+      "eta": 1.1391429984972816,
+      "power": 0.5454699392873598,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta": 1.2782397602648268,
+          "power": 0.509480480912995,
+          "beta": 0.05270423807892034,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 0.3825730590255457,
+          "power": 0.9564285363040852,
+          "beta": 0.05270423807892034,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 1.1391429984972816,
+          "power": 0.5454699392873598,
+          "beta": 0.05270423807892034,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117,
+      "n_zero_windows": 1,
+      "log_lik": -254.70763397030947,
+      "aic": 523.415267940619,
+      "bic": 542.7504854842032,
+      "nonhomogeneous_aic": 523.415267940619,
+      "nonhomogeneous_bic": 542.7504854842032,
+      "stationary_aic": 544.427136320275,
+      "stationary_bic": 555.475832059466,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 7,
+          "eta": 1.2782397602648268,
+          "power": 0.509480480912995,
+          "beta": 0.05270423807892034,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 0.3825730590255457,
+          "power": 0.9564285363040852,
+          "beta": 0.05270423807892034,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 1.1391429984972816,
+          "power": 0.5454699392873598,
+          "beta": 0.05270423807892034,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "mean_p_negative_increment": 0.0,
+      "max_p_negative_increment": 0.0,
+      "machine_id": 3,
+      "window_size": 15,
+      "pit_ks_stat": 0.11070863909983737,
+      "pit_ks_pvalue": 0.11922267267453918,
+      "pit_ks_frac_reject_05": 0.135,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 14.95750858160686,
+      "terminal_bias_um": -1.2961316514221248,
+      "delta_aic_vs_stationary": 21.011868379656107,
+      "validation_passed": true
+    }
+  },
+  "gamma_state_params": {
+    "M1": {
+      "model": "state_dependent_gamma_rounded",
+      "schema_version": 1,
+      "selected_age_model": "power_law",
+      "beta": 0.5473028968805003,
+      "eta": 27.15319210894098,
+      "power": 0.4895777255504339,
+      "gamma_state": 1.935842061018445,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta": 27.15319210894098,
+          "power": 0.4895777255504339,
+          "beta": 0.5473028968805003,
+          "gamma_state": 1.935842061018445,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 27.913146066603446,
+          "power": 0.39494493933533675,
+          "beta": 0.5473028968805003,
+          "gamma_state": 1.935842061018445,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 23.274520529259828,
+          "power": 0.5552687743343733,
+          "beta": 0.5473028968805003,
+          "gamma_state": 1.935842061018445,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122,
+      "n_zero_windows": 2,
+      "log_lik": -259.4364256159411,
+      "aic": 534.8728512318822,
+      "bic": 557.3050195897483,
+      "nonhomogeneous_aic": 534.8728512318822,
+      "nonhomogeneous_bic": 557.3050195897483,
+      "stationary_aic": 551.5959433106815,
+      "stationary_bic": 565.6160485343478,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 1,
+          "eta": 27.15319210894098,
+          "power": 0.4895777255504339,
+          "beta": 0.5473028968805003,
+          "gamma_state": 1.935842061018445,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 27.913146066603446,
+          "power": 0.39494493933533675,
+          "beta": 0.5473028968805003,
+          "gamma_state": 1.935842061018445,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 23.274520529259828,
+          "power": 0.5552687743343733,
+          "beta": 0.5473028968805003,
+          "gamma_state": 1.935842061018445,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 1,
+      "window_size": 15,
+      "pit_ks_stat": 0.09543501106289258,
+      "pit_ks_pvalue": 0.22575021204636728,
+      "pit_ks_frac_reject_05": 0.015,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 25.48672080178768,
+      "terminal_bias_um": -64.47248739924163,
+      "delta_aic_vs_stationary": 16.723092078799255,
+      "validation_passed": false
+    },
+    "M2": {
+      "model": "state_dependent_gamma_rounded",
+      "schema_version": 1,
+      "selected_age_model": "power_law",
+      "beta": 0.49100013723705943,
+      "eta": 18.202933821486923,
+      "power": 0.4857800525079267,
+      "gamma_state": 2.0584444180221984,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta": 18.202933821486923,
+          "power": 0.4735371100994578,
+          "beta": 0.49100013723705943,
+          "gamma_state": 2.0584444180221984,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 19.757564713999145,
+          "power": 0.4857800525079267,
+          "beta": 0.49100013723705943,
+          "gamma_state": 2.0584444180221984,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 15.33243645389888,
+          "power": 0.5056406975234127,
+          "beta": 0.49100013723705943,
+          "gamma_state": 2.0584444180221984,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183,
+      "n_zero_windows": 28,
+      "log_lik": -344.4417573995015,
+      "aic": 704.883514799003,
+      "bic": 730.5594040217344,
+      "nonhomogeneous_aic": 704.883514799003,
+      "nonhomogeneous_bic": 730.5594040217344,
+      "stationary_aic": 719.885053194105,
+      "stationary_bic": 735.9324839583121,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 4,
+          "eta": 18.202933821486923,
+          "power": 0.4735371100994578,
+          "beta": 0.49100013723705943,
+          "gamma_state": 2.0584444180221984,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 19.757564713999145,
+          "power": 0.4857800525079267,
+          "beta": 0.49100013723705943,
+          "gamma_state": 2.0584444180221984,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 15.33243645389888,
+          "power": 0.5056406975234127,
+          "beta": 0.49100013723705943,
+          "gamma_state": 2.0584444180221984,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 2,
+      "window_size": 15,
+      "pit_ks_stat": 0.06307923246682129,
+      "pit_ks_pvalue": 0.46390734940612477,
+      "pit_ks_frac_reject_05": 0.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 28.867565571161638,
+      "terminal_bias_um": -65.2524455850734,
+      "delta_aic_vs_stationary": 15.001538395101988,
+      "validation_passed": false
+    },
+    "M3": {
+      "model": "state_dependent_gamma_rounded",
+      "schema_version": 1,
+      "selected_age_model": "power_law",
+      "beta": 0.6096198225707967,
+      "eta": 18.41512398740495,
+      "power": 0.6520145644305277,
+      "gamma_state": 2.504177019385624,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta": 18.41512398740495,
+          "power": 0.6520145644305277,
+          "beta": 0.6096198225707967,
+          "gamma_state": 2.504177019385624,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 12.627944638253695,
+          "power": 0.8367227656248737,
+          "beta": 0.6096198225707967,
+          "gamma_state": 2.504177019385624,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 22.99354264985649,
+          "power": 0.5746302887791928,
+          "beta": 0.6096198225707967,
+          "gamma_state": 2.504177019385624,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117,
+      "n_zero_windows": 1,
+      "log_lik": -246.85108377961186,
+      "aic": 509.7021675592237,
+      "bic": 531.7995590376057,
+      "nonhomogeneous_aic": 509.7021675592237,
+      "nonhomogeneous_bic": 531.7995590376057,
+      "stationary_aic": 512.22548781261,
+      "stationary_bic": 526.0363574865988,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 7,
+          "eta": 18.41512398740495,
+          "power": 0.6520145644305277,
+          "beta": 0.6096198225707967,
+          "gamma_state": 2.504177019385624,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 12.627944638253695,
+          "power": 0.8367227656248737,
+          "beta": 0.6096198225707967,
+          "gamma_state": 2.504177019385624,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 22.99354264985649,
+          "power": 0.5746302887791928,
+          "beta": 0.6096198225707967,
+          "gamma_state": 2.504177019385624,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 3,
+      "window_size": 15,
+      "pit_ks_stat": 0.11546859683352245,
+      "pit_ks_pvalue": 0.09337928703562426,
+      "pit_ks_frac_reject_05": 0.22,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 30.8652980261832,
+      "terminal_bias_um": -63.91317171760909,
+      "delta_aic_vs_stationary": 2.5233202533863164,
+      "validation_passed": false
+    }
+  },
+  "inverse_gaussian_state_params": {
+    "M1": {
+      "model": "state_dependent_inverse_gaussian_rounded",
+      "schema_version": 1,
+      "selected_age_model": "linear",
+      "beta": 0.36866870977890165,
+      "eta": 10.238897095409637,
+      "power": 1.0,
+      "gamma_state": 1.1280290865625924,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta": 10.486089546380525,
+          "power": 1.0,
+          "beta": 0.36866870977890165,
+          "gamma_state": 1.1280290865625924,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 8.199060387680476,
+          "power": 1.0,
+          "beta": 0.36866870977890165,
+          "gamma_state": 1.1280290865625924,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 10.238897095409637,
+          "power": 1.0,
+          "beta": 0.36866870977890165,
+          "gamma_state": 1.1280290865625924,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122,
+      "n_zero_windows": 2,
+      "log_lik": -254.73996731197911,
+      "aic": 519.4799346239582,
+      "bic": 533.5000398476245,
+      "nonhomogeneous_aic": 517.889409650722,
+      "nonhomogeneous_bic": 540.3215780085881,
+      "stationary_aic": 519.4799346239582,
+      "stationary_bic": 533.5000398476245,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 1,
+          "eta": 11.848116950406483,
+          "power": 0.7203711347478856,
+          "beta": 0.3976069375705149,
+          "gamma_state": 2.456987955238208,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 13.724510131591364,
+          "power": 0.5075374150000578,
+          "beta": 0.3976069375705149,
+          "gamma_state": 2.456987955238208,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 10.812440461233406,
+          "power": 0.7716545236130843,
+          "beta": 0.3976069375705149,
+          "gamma_state": 2.456987955238208,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 1,
+      "window_size": 15,
+      "pit_ks_stat": 0.11002718241549393,
+      "pit_ks_pvalue": 0.11333681081155308,
+      "pit_ks_frac_reject_05": 0.185,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 31.523548851291732,
+      "terminal_bias_um": -55.02827837205306,
+      "delta_aic_vs_stationary": 1.5905249732362563,
+      "validation_passed": false
+    },
+    "M2": {
+      "model": "state_dependent_inverse_gaussian_rounded",
+      "schema_version": 1,
+      "selected_age_model": "linear",
+      "beta": 0.3129245812760784,
+      "eta": 4.538910809959897,
+      "power": 1.0,
+      "gamma_state": 1.660087494488835,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta": 4.538910809959897,
+          "power": 1.0,
+          "beta": 0.3129245812760784,
+          "gamma_state": 1.660087494488835,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 5.273340654276486,
+          "power": 1.0,
+          "beta": 0.3129245812760784,
+          "gamma_state": 1.660087494488835,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 4.132300700809413,
+          "power": 1.0,
+          "beta": 0.3129245812760784,
+          "gamma_state": 1.660087494488835,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183,
+      "n_zero_windows": 28,
+      "log_lik": -338.4646921503932,
+      "aic": 686.9293843007864,
+      "bic": 702.9768150649935,
+      "nonhomogeneous_aic": 685.0514491051222,
+      "nonhomogeneous_bic": 710.7273383278535,
+      "stationary_aic": 686.9293843007864,
+      "stationary_bic": 702.9768150649935,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 4,
+          "eta": 4.731726820604685,
+          "power": 0.7658450425590835,
+          "beta": 0.32915445342807576,
+          "gamma_state": 3.6392100436253574,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 8.439317120245056,
+          "power": 0.5730770988468971,
+          "beta": 0.32915445342807576,
+          "gamma_state": 3.6392100436253574,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 3.258010377971609,
+          "power": 0.9119716076365397,
+          "beta": 0.32915445342807576,
+          "gamma_state": 3.6392100436253574,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 2,
+      "window_size": 15,
+      "pit_ks_stat": 0.07601884706485902,
+      "pit_ks_pvalue": 0.24161621460478075,
+      "pit_ks_frac_reject_05": 0.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 39.6332721545005,
+      "terminal_bias_um": -65.75723450882533,
+      "delta_aic_vs_stationary": 1.8779351956642358,
+      "validation_passed": false
+    },
+    "M3": {
+      "model": "state_dependent_inverse_gaussian_rounded",
+      "schema_version": 1,
+      "selected_age_model": "linear",
+      "beta": 0.5329461175126888,
+      "eta": 9.510231894808218,
+      "power": 1.0,
+      "gamma_state": 2.431207763223907,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta": 9.510231894808218,
+          "power": 1.0,
+          "beta": 0.5329461175126888,
+          "gamma_state": 2.431207763223907,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 8.94916497692681,
+          "power": 1.0,
+          "beta": 0.5329461175126888,
+          "gamma_state": 2.431207763223907,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 10.33691342518596,
+          "power": 1.0,
+          "beta": 0.5329461175126888,
+          "gamma_state": 2.431207763223907,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117,
+      "n_zero_windows": 1,
+      "log_lik": -235.0276349622357,
+      "aic": 480.0552699244714,
+      "bic": 493.8661395984602,
+      "nonhomogeneous_aic": 484.70331362234094,
+      "nonhomogeneous_bic": 506.800705100723,
+      "stationary_aic": 480.0552699244714,
+      "stationary_bic": 493.8661395984602,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 7,
+          "eta": 7.780818212009015,
+          "power": 0.9635100038397794,
+          "beta": 0.5358928612725983,
+          "gamma_state": 3.7296489670824786,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 8.570336776182716,
+          "power": 0.8629345404322386,
+          "beta": 0.5358928612725983,
+          "gamma_state": 3.7296489670824786,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 10.66951947832219,
+          "power": 0.8108312054146224,
+          "beta": 0.5358928612725983,
+          "gamma_state": 3.7296489670824786,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 3,
+      "window_size": 15,
+      "pit_ks_stat": 0.11953579843383486,
+      "pit_ks_pvalue": 0.07170263470725236,
+      "pit_ks_frac_reject_05": 0.295,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 39.02795273946685,
+      "terminal_bias_um": -67.70120175013987,
+      "delta_aic_vs_stationary": -4.648043697869525,
+      "validation_passed": false
+    }
+  },
+  "gamma_random_effects_params": {
+    "M1": {
+      "model": "random_effects_gamma_rounded",
+      "schema_version": 1,
+      "selected_re_model": "pooled_exponent",
+      "selected_age_model": "linear",
+      "beta": 0.5035089311277529,
+      "eta": 33.0726121710096,
+      "power": 0.6715639471522313,
+      "mu_p": 0.6715639471522313,
+      "sigma_p": 0.0,
+      "sigma_p_test": {
+        "baseline_log_lik": -264.95933301595767,
+        "variant_log_lik": -264.95933301595767,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -4.804021044733304,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta": 34.84221106319791,
+          "power": 0.6715639471522313,
+          "beta": 0.5035089311277529,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 28.258356344362387,
+          "power": 0.6715639471522313,
+          "beta": 0.5035089311277529,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 33.0726121710096,
+          "power": 0.6715639471522313,
+          "beta": 0.5035089311277529,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122,
+      "n_zero_windows": 2,
+      "log_lik": -264.95933301595767,
+      "aic": 539.9186660319153,
+      "bic": 553.9387712555816,
+      "nonhomogeneous_aic": 541.9186660319153,
+      "nonhomogeneous_bic": 558.7427923003149,
+      "stationary_aic": 539.9186660319153,
+      "stationary_bic": 553.9387712555816,
+      "machine_id": 1,
+      "window_size": 15,
+      "pit_ks_stat": 0.09243225080762091,
+      "pit_ks_pvalue": 0.2603938696856771,
+      "pit_ks_frac_reject_05": 0.01,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 16.06087969629617,
+      "terminal_bias_um": -3.8961735176455647,
+      "delta_aic_vs_stationary": -2.0,
+      "validation_passed": true
+    },
+    "M2": {
+      "model": "random_effects_gamma_rounded",
+      "schema_version": 1,
+      "selected_re_model": "pooled_exponent",
+      "selected_age_model": "linear",
+      "beta": 0.4677221792519943,
+      "eta": 23.36582648385821,
+      "power": 0.6473868311623567,
+      "mu_p": 0.6473868311623567,
+      "sigma_p": 0.0,
+      "sigma_p_test": {
+        "baseline_log_lik": -349.91246919529544,
+        "variant_log_lik": -349.91246919529544,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -5.209486152841464,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta": 23.36582648385821,
+          "power": 0.6473868311623567,
+          "beta": 0.4677221792519943,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 25.667054439500234,
+          "power": 0.6473868311623567,
+          "beta": 0.4677221792519943,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 21.219696773972025,
+          "power": 0.6473868311623567,
+          "beta": 0.4677221792519943,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183,
+      "n_zero_windows": 28,
+      "log_lik": -349.91246919529544,
+      "aic": 709.8249383905909,
+      "bic": 725.872369154798,
+      "nonhomogeneous_aic": 711.8249383905909,
+      "nonhomogeneous_bic": 731.0818553076394,
+      "stationary_aic": 709.8249383905909,
+      "stationary_bic": 725.872369154798,
+      "machine_id": 2,
+      "window_size": 15,
+      "pit_ks_stat": 0.06630985448992623,
+      "pit_ks_pvalue": 0.40712656239053574,
+      "pit_ks_frac_reject_05": 0.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 17.6056605603107,
+      "terminal_bias_um": -2.5918372147331468,
+      "delta_aic_vs_stationary": -2.0,
+      "validation_passed": true
+    },
+    "M3": {
+      "model": "random_effects_gamma_rounded",
+      "schema_version": 1,
+      "selected_re_model": "pooled_exponent",
+      "selected_age_model": "linear",
+      "beta": 0.5417354400632968,
+      "eta": 23.896958006802382,
+      "power": 0.9347144909457624,
+      "mu_p": 0.9347144909457624,
+      "sigma_p": 0.0,
+      "sigma_p_test": {
+        "baseline_log_lik": -253.6010870825024,
+        "variant_log_lik": -253.6010870825024,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -4.762173934797829,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta": 23.896958006802382,
+          "power": 0.9347144909457624,
+          "beta": 0.5417354400632968,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 23.22751990694786,
+          "power": 0.9347144909457624,
+          "beta": 0.5417354400632968,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 25.917603269220315,
+          "power": 0.9347144909457624,
+          "beta": 0.5417354400632968,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117,
+      "n_zero_windows": 1,
+      "log_lik": -253.6010870825024,
+      "aic": 517.2021741650049,
+      "bic": 531.0130438389936,
+      "nonhomogeneous_aic": 519.2021741650049,
+      "nonhomogeneous_bic": 535.7752177737914,
+      "stationary_aic": 517.2021741650049,
+      "stationary_bic": 531.0130438389936,
+      "machine_id": 3,
+      "window_size": 15,
+      "pit_ks_stat": 0.11469883698849764,
+      "pit_ks_pvalue": 0.09660045575247024,
+      "pit_ks_frac_reject_05": 0.2,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 13.947758654052036,
+      "terminal_bias_um": -1.16306009169701,
+      "delta_aic_vs_stationary": -2.0,
+      "validation_passed": true
+    }
+  },
+  "inverse_gaussian_random_effects_params": {
+    "M1": {
+      "model": "random_effects_inverse_gaussian_rounded",
+      "schema_version": 1,
+      "selected_re_model": "pooled_exponent",
+      "selected_age_model": "linear",
+      "beta": 0.3558677198272759,
+      "eta": 17.675737483002248,
+      "power": 0.9076882473924077,
+      "mu_p": 0.9076882473924077,
+      "sigma_p": 0.0,
+      "sigma_p_test": {
+        "baseline_log_lik": -256.88095149998276,
+        "variant_log_lik": -256.88095149998276,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -4.804021044733304,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta": 18.393322052225997,
+          "power": 0.9076882473924077,
+          "beta": 0.3558677198272759,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 13.826639345766429,
+          "power": 0.9076882473924077,
+          "beta": 0.3558677198272759,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 17.675737483002248,
+          "power": 0.9076882473924077,
+          "beta": 0.3558677198272759,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122,
+      "n_zero_windows": 2,
+      "log_lik": -256.88095149998276,
+      "aic": 523.7619029999655,
+      "bic": 537.7820082236318,
+      "nonhomogeneous_aic": 525.7619029999655,
+      "nonhomogeneous_bic": 542.5860292683651,
+      "stationary_aic": 523.7619029999655,
+      "stationary_bic": 537.7820082236318,
+      "machine_id": 1,
+      "window_size": 15,
+      "pit_ks_stat": 0.09524193108357107,
+      "pit_ks_pvalue": 0.2264577164527423,
+      "pit_ks_frac_reject_05": 0.015,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 16.30338366933937,
+      "terminal_bias_um": -3.2682052858088944,
+      "delta_aic_vs_stationary": -2.0,
+      "validation_passed": true
+    },
+    "M2": {
+      "model": "random_effects_inverse_gaussian_rounded",
+      "schema_version": 1,
+      "selected_re_model": "pooled_exponent",
+      "selected_age_model": "linear",
+      "beta": 0.29732212449867634,
+      "eta": 9.07393585692758,
+      "power": 0.9356325405584502,
+      "mu_p": 0.9356325405584502,
+      "sigma_p": 0.0,
+      "sigma_p_test": {
+        "baseline_log_lik": -342.06857285967044,
+        "variant_log_lik": -342.06857285967044,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -5.209486152841464,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta": 9.07393585692758,
+          "power": 0.9356325405584502,
+          "beta": 0.29732212449867634,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 10.470070229651872,
+          "power": 0.9356325405584502,
+          "beta": 0.29732212449867634,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 8.079340726948573,
+          "power": 0.9356325405584502,
+          "beta": 0.29732212449867634,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183,
+      "n_zero_windows": 28,
+      "log_lik": -342.06857285967044,
+      "aic": 694.1371457193409,
+      "bic": 710.184576483548,
+      "nonhomogeneous_aic": 696.1371457193409,
+      "nonhomogeneous_bic": 715.3940626363894,
+      "stationary_aic": 694.1371457193409,
+      "stationary_bic": 710.184576483548,
+      "machine_id": 2,
+      "window_size": 15,
+      "pit_ks_stat": 0.052466295526599,
+      "pit_ks_pvalue": 0.6704326180237464,
+      "pit_ks_frac_reject_05": 0.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 18.821467252501307,
+      "terminal_bias_um": -1.3000037066531434,
+      "delta_aic_vs_stationary": -2.0,
+      "validation_passed": true
+    },
+    "M3": {
+      "model": "random_effects_inverse_gaussian_rounded",
+      "schema_version": 1,
+      "selected_re_model": "pooled_exponent",
+      "selected_age_model": "linear",
+      "beta": 0.47927593453260353,
+      "eta": 14.850061376382614,
+      "power": 1.210854210590973,
+      "mu_p": 1.210854210590973,
+      "sigma_p": 0.0,
+      "sigma_p_test": {
+        "baseline_log_lik": -240.30435589762942,
+        "variant_log_lik": -240.30435589762942,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -4.7621739347977154,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta": 14.850061376382614,
+          "power": 1.210854210590973,
+          "beta": 0.47927593453260353,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 14.537062777440536,
+          "power": 1.210854210590973,
+          "beta": 0.47927593453260353,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 16.03109894049658,
+          "power": 1.210854210590973,
+          "beta": 0.47927593453260353,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117,
+      "n_zero_windows": 1,
+      "log_lik": -240.30435589762942,
+      "aic": 490.60871179525884,
+      "bic": 504.41958146924765,
+      "nonhomogeneous_aic": 492.60871179525884,
+      "nonhomogeneous_bic": 509.18175540404536,
+      "stationary_aic": 490.60871179525884,
+      "stationary_bic": 504.41958146924765,
+      "machine_id": 3,
+      "window_size": 15,
+      "pit_ks_stat": 0.10677571612680119,
+      "pit_ks_pvalue": 0.14065873524320519,
+      "pit_ks_frac_reject_05": 0.035,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 16.236291964898623,
+      "terminal_bias_um": -0.6730635396793332,
+      "delta_aic_vs_stationary": -2.0,
+      "validation_passed": true
+    }
+  },
+  "wiener_multistage_params": {
+    "M1": {
+      "model": "multistage_wiener_rounded",
+      "schema_version": 1,
+      "selected_stage_model": "two_stage",
+      "selected_age_model": "power_law",
+      "beta": 0.9337393132900472,
+      "eta": 111.12595376304772,
+      "power": 1.0,
+      "tau_c": 180.95000000000002,
+      "tau_grid_n": 25,
+      "changepoint_test": {
+        "baseline_log_lik": -336.09860848748605,
+        "variant_log_lik": -248.80113686754757,
+        "delta_aic_baseline_minus_variant": 166.5949432398769,
+        "delta_bic_baseline_minus_variant": 155.3788590609439,
+        "lr_statistic": 174.59494323987695,
+        "lr_df": 4,
+        "lr_p_value": 1.0792897663657154e-36,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true,
+        "caveat": "tau_c is unidentified under the eta1=eta2 null (the Davies 1987 problem for changepoint models); the chi-square asymptotic and this p-value are approximate, not exact -- variant_supported_aic is the primary selection criterion, as for every other model-selection decision in this study."
+      },
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta1": 184.36062127889272,
+          "eta2": 33.73393077638923,
+          "tau_c": 180.95000000000002,
+          "beta": 0.9337393132900472,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta1": 213.7968763603436,
+          "eta2": 30.181399858676244,
+          "tau_c": 180.95000000000002,
+          "beta": 0.9337393132900472,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta1": 193.43115175381067,
+          "eta2": 28.82075577228478,
+          "tau_c": 180.95000000000002,
+          "beta": 0.9337393132900472,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122,
+      "n_zero_windows": 2,
+      "log_lik": -248.80113686754757,
+      "aic": 513.6022737350952,
+      "bic": 536.0344420929612,
+      "nonhomogeneous_aic": 513.6022737350952,
+      "nonhomogeneous_bic": 536.0344420929612,
+      "stationary_aic": 680.1972169749721,
+      "stationary_bic": 691.4133011539051,
+      "mean_p_negative_increment": 0.05108908514938696,
+      "machine_id": 1,
+      "window_size": 15,
+      "pit_ks_stat": 0.14165355060316315,
+      "pit_ks_pvalue": 0.020187105419175483,
+      "pit_ks_frac_reject_05": 0.92,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 13.28734017092678,
+      "terminal_bias_um": -2.928237971893585,
+      "delta_aic_vs_stationary": 166.5949432398769,
+      "validation_passed": false
+    },
+    "M2": {
+      "model": "multistage_wiener_rounded",
+      "schema_version": 1,
+      "selected_stage_model": "two_stage",
+      "selected_age_model": "power_law",
+      "beta": 0.8418435176543555,
+      "eta": 84.0046458907364,
+      "power": 1.0,
+      "tau_c": 255.95000000000002,
+      "tau_grid_n": 25,
+      "changepoint_test": {
+        "baseline_log_lik": -478.61590995874326,
+        "variant_log_lik": -339.49060899653756,
+        "delta_aic_baseline_minus_variant": 270.2506019244114,
+        "delta_bic_baseline_minus_variant": 257.41265731304566,
+        "lr_statistic": 278.2506019244114,
+        "lr_df": 4,
+        "lr_p_value": 5.310874726698696e-59,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true,
+        "caveat": "tau_c is unidentified under the eta1=eta2 null (the Davies 1987 problem for changepoint models); the chi-square asymptotic and this p-value are approximate, not exact -- variant_supported_aic is the primary selection criterion, as for every other model-selection decision in this study."
+      },
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta1": 150.23837972805984,
+          "eta2": 17.770912053412953,
+          "tau_c": 255.95000000000002,
+          "beta": 0.8418435176543555,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta1": 135.97413082302697,
+          "eta2": 16.38749846876105,
+          "tau_c": 255.95000000000002,
+          "beta": 0.8418435176543555,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta1": 175.41354968455957,
+          "eta2": 16.543513363703152,
+          "tau_c": 255.95000000000002,
+          "beta": 0.8418435176543555,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183,
+      "n_zero_windows": 28,
+      "log_lik": -339.49060899653756,
+      "aic": 694.9812179930751,
+      "bic": 720.6571072158065,
+      "nonhomogeneous_aic": 694.9812179930751,
+      "nonhomogeneous_bic": 720.6571072158065,
+      "stationary_aic": 965.2318199174865,
+      "stationary_bic": 978.0697645288521,
+      "mean_p_negative_increment": 0.11124906996865562,
+      "machine_id": 2,
+      "window_size": 15,
+      "pit_ks_stat": 0.1073780873041682,
+      "pit_ks_pvalue": 0.04013856157716429,
+      "pit_ks_frac_reject_05": 0.705,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 16.03792377456924,
+      "terminal_bias_um": -1.4817928427538145,
+      "delta_aic_vs_stationary": 270.2506019244114,
+      "validation_passed": false
+    },
+    "M3": {
+      "model": "multistage_wiener_rounded",
+      "schema_version": 1,
+      "selected_stage_model": "two_stage",
+      "selected_age_model": "power_law",
+      "beta": 0.9029428629650473,
+      "eta": 110.86447530166745,
+      "power": 1.0,
+      "tau_c": 172.85000000000002,
+      "tau_grid_n": 25,
+      "changepoint_test": {
+        "baseline_log_lik": -304.2620023867683,
+        "variant_log_lik": -243.08053930322106,
+        "delta_aic_baseline_minus_variant": 114.36292616709449,
+        "delta_bic_baseline_minus_variant": 103.31423042790345,
+        "lr_statistic": 122.36292616709449,
+        "lr_df": 4,
+        "lr_p_value": 1.6706640388793893e-25,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true,
+        "caveat": "tau_c is unidentified under the eta1=eta2 null (the Davies 1987 problem for changepoint models); the chi-square asymptotic and this p-value are approximate, not exact -- variant_supported_aic is the primary selection criterion, as for every other model-selection decision in this study."
+      },
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta1": 210.4937563674861,
+          "eta2": 31.864097258576198,
+          "tau_c": 172.85000000000002,
+          "beta": 0.9029428629650473,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta1": 3.6149413225998033,
+          "eta2": 31.873376101703865,
+          "tau_c": 172.85000000000002,
+          "beta": 0.9029428629650473,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta1": 189.1702404853571,
+          "eta2": 32.5587101179778,
+          "tau_c": 172.85000000000002,
+          "beta": 0.9029428629650473,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117,
+      "n_zero_windows": 1,
+      "log_lik": -243.08053930322106,
+      "aic": 502.1610786064421,
+      "bic": 524.2584700848241,
+      "nonhomogeneous_aic": 502.1610786064421,
+      "nonhomogeneous_bic": 524.2584700848241,
+      "stationary_aic": 616.5240047735366,
+      "stationary_bic": 627.5727005127276,
+      "mean_p_negative_increment": 0.048142626051242615,
+      "machine_id": 3,
+      "window_size": 15,
+      "pit_ks_stat": 0.16153974549423267,
+      "pit_ks_pvalue": 0.0056174296815471704,
+      "pit_ks_frac_reject_05": 1.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 13.793164292085992,
+      "terminal_bias_um": -0.6104470196154258,
+      "delta_aic_vs_stationary": 114.36292616709449,
+      "validation_passed": false
+    }
+  },
+  "gig_params": {
+    "M1": {
+      "model": "nonhomogeneous_gig_rounded",
+      "schema_version": 1,
+      "selected_age_model": "linear",
+      "beta": 0.22259603090825278,
+      "eta": 9.730267548527934,
+      "power": 1.0,
+      "p_gid": -1.9007570448493163,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 1,
+          "eta": 10.20529672947619,
+          "power": 1.0,
+          "beta": 0.22259603090825278,
+          "p_gid": -1.9007570448493163,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 7.471341464861565,
+          "power": 1.0,
+          "beta": 0.22259603090825278,
+          "p_gid": -1.9007570448493163,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 9.730267548527934,
+          "power": 1.0,
+          "beta": 0.22259603090825278,
+          "p_gid": -1.9007570448493163,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 122,
+      "n_zero_windows": 2,
+      "log_lik": -254.46932292432413,
+      "aic": 518.9386458486483,
+      "bic": 532.9587510723145,
+      "nonhomogeneous_aic": 523.5373166305649,
+      "nonhomogeneous_bic": 545.969484988431,
+      "stationary_aic": 518.9386458486483,
+      "stationary_bic": 532.9587510723145,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 1,
+          "eta": 9.669859517663022,
+          "power": 0.9988020969749326,
+          "beta": 0.20996855845449405,
+          "p_gid": -1.9432506464134798,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 2,
+          "eta": 9.732279754896329,
+          "power": 0.7661813273447844,
+          "beta": 0.20996855845449405,
+          "p_gid": -1.9432506464134798,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 3,
+          "eta": 8.753135743393537,
+          "power": 1.037773700767092,
+          "beta": 0.20996855845449405,
+          "p_gid": -1.9432506464134798,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 1,
+      "window_size": 15,
+      "pit_ks_stat": 0.0789857356183626,
+      "pit_ks_pvalue": 0.4326212376899856,
+      "pit_ks_frac_reject_05": 0.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 17.30041093579684,
+      "terminal_bias_um": -4.931191037670364,
+      "delta_aic_vs_stationary": -4.598670781916553,
+      "validation_passed": true
+    },
+    "M2": {
+      "model": "nonhomogeneous_gig_rounded",
+      "schema_version": 1,
+      "selected_age_model": "linear",
+      "beta": 0.2527466300764011,
+      "eta": 6.897424245963536,
+      "power": 1.0,
+      "p_gid": -1.135790185469741,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 4,
+          "eta": 6.897424245963536,
+          "power": 1.0,
+          "beta": 0.2527466300764011,
+          "p_gid": -1.135790185469741,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 7.93056484985481,
+          "power": 1.0,
+          "beta": 0.2527466300764011,
+          "p_gid": -1.135790185469741,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 6.166062099991801,
+          "power": 1.0,
+          "beta": 0.2527466300764011,
+          "p_gid": -1.135790185469741,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 183,
+      "n_zero_windows": 28,
+      "log_lik": -340.8933740235259,
+      "aic": 691.7867480470518,
+      "bic": 707.8341788112589,
+      "nonhomogeneous_aic": 695.4321898840001,
+      "nonhomogeneous_bic": 721.1080791067315,
+      "stationary_aic": 691.7867480470518,
+      "stationary_bic": 707.8341788112589,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 4,
+          "eta": 6.720587795271962,
+          "power": 1.0814564892959269,
+          "beta": 0.28885462343953605,
+          "p_gid": -1.0415845050167634,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 5,
+          "eta": 12.060128255751875,
+          "power": 0.8243262445943995,
+          "beta": 0.28885462343953605,
+          "p_gid": -1.0415845050167634,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 6,
+          "eta": 4.912363594384673,
+          "power": 1.2070866799942088,
+          "beta": 0.28885462343953605,
+          "p_gid": -1.0415845050167634,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 2,
+      "window_size": 15,
+      "pit_ks_stat": 0.0442963381866546,
+      "pit_ks_pvalue": 0.8162070105129503,
+      "pit_ks_frac_reject_05": 0.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 19.38617358654259,
+      "terminal_bias_um": -2.038785807664444,
+      "delta_aic_vs_stationary": -3.6454418369482937,
+      "validation_passed": true
+    },
+    "M3": {
+      "model": "nonhomogeneous_gig_rounded",
+      "schema_version": 1,
+      "selected_age_model": "linear",
+      "beta": 0.11194783909800719,
+      "eta": 4.417544851255285,
+      "power": 1.0,
+      "p_gid": -2.7651346522408184,
+      "time_reference_s": 1000.0,
+      "wear_resolution_um": 1.0,
+      "components": [
+        {
+          "tool_id": 7,
+          "eta": 4.391176102084392,
+          "power": 1.0,
+          "beta": 0.11194783909800719,
+          "p_gid": -2.7651346522408184,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 4.417544851255285,
+          "power": 1.0,
+          "beta": 0.11194783909800719,
+          "p_gid": -2.7651346522408184,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 4.868826781729302,
+          "power": 1.0,
+          "beta": 0.11194783909800719,
+          "p_gid": -2.7651346522408184,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "n_windows": 117,
+      "n_zero_windows": 1,
+      "log_lik": -238.11118187659196,
+      "aic": 486.2223637531839,
+      "bic": 500.0332334271727,
+      "nonhomogeneous_aic": 486.0357196355792,
+      "nonhomogeneous_bic": 508.13311111396126,
+      "stationary_aic": 486.2223637531839,
+      "stationary_bic": 500.0332334271727,
+      "nonhomogeneous_components": [
+        {
+          "tool_id": 7,
+          "eta": 11.371943798418426,
+          "power": 1.3154921917800944,
+          "beta": 0.43410346929933696,
+          "p_gid": -2.062547080153023,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 8,
+          "eta": 11.51410433739241,
+          "power": 1.2791991461606715,
+          "beta": 0.43410346929933696,
+          "p_gid": -2.062547080153023,
+          "time_reference_s": 1000.0
+        },
+        {
+          "tool_id": 9,
+          "eta": 14.491302816571233,
+          "power": 1.179799221898083,
+          "beta": 0.43410346929933696,
+          "p_gid": -2.062547080153023,
+          "time_reference_s": 1000.0
+        }
+      ],
+      "machine_id": 3,
+      "window_size": 15,
+      "pit_ks_stat": 0.05832044409159229,
+      "pit_ks_pvalue": 0.7780057334726362,
+      "pit_ks_frac_reject_05": 0.0,
+      "pit_ks_n_seeds": 200,
+      "trajectory_rmse_um": 14.287241983074374,
+      "terminal_bias_um": -2.9972255831559473,
+      "delta_aic_vs_stationary": 0.18664411760471467,
+      "validation_passed": true
+    }
+  },
+  "comparison": {
+    "M1": {
+      "gamma": {
+        "age_model": "power_law",
+        "aic": 542.6459156155461,
+        "bic": 562.2740629286789,
+        "pit_ks_stat": 0.10110538967359056,
+        "pit_ks_pvalue": 0.17448846554602718,
+        "pit_ks_frac_reject_05": 0.05,
+        "pit_ks_n_seeds": 200.0,
+        "validation_passed": 1.0
+      },
+      "inverse_gaussian": {
+        "age_model": "linear",
+        "aic": 522.4453131744064,
+        "bic": 533.6613973533393,
+        "pit_ks_stat": 0.10871868515306289,
+        "pit_ks_pvalue": 0.11953382530652945,
+        "pit_ks_frac_reject_05": 0.16,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true
+      },
+      "wiener": {
+        "age_model": "power_law",
+        "aic": 595.6031192177592,
+        "bic": 615.231266530892,
+        "pit_ks_stat": 0.1342527649144171,
+        "pit_ks_pvalue": 0.028277868692796096,
+        "pit_ks_frac_reject_05": 0.855,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "mean_p_negative_increment": 0.1114284173638909,
+        "max_p_negative_increment": 0.174359786312825
+      },
+      "wiener_truncated": {
+        "age_model": "power_law",
+        "aic": 545.899470184565,
+        "bic": 565.5276174976977,
+        "pit_ks_stat": 0.1022512620633552,
+        "pit_ks_pvalue": 0.16018379462083465,
+        "pit_ks_frac_reject_05": 0.035,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "mean_p_negative_increment": 0.0,
+        "max_p_negative_increment": 0.0
+      },
+      "gamma_state": {
+        "age_model": "power_law",
+        "aic": 534.8728512318822,
+        "bic": 557.3050195897483,
+        "pit_ks_stat": 0.09543501106289258,
+        "pit_ks_pvalue": 0.22575021204636728,
+        "pit_ks_frac_reject_05": 0.015,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "gamma_state": 1.935842061018445
+      },
+      "inverse_gaussian_state": {
+        "age_model": "linear",
+        "aic": 519.4799346239582,
+        "bic": 533.5000398476245,
+        "pit_ks_stat": 0.11002718241549393,
+        "pit_ks_pvalue": 0.11333681081155308,
+        "pit_ks_frac_reject_05": 0.185,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "gamma_state": 1.1280290865625924
+      },
+      "gamma_random_effects": {
+        "age_model": "linear",
+        "aic": 539.9186660319153,
+        "bic": 553.9387712555816,
+        "pit_ks_stat": 0.09243225080762091,
+        "pit_ks_pvalue": 0.2603938696856771,
+        "pit_ks_frac_reject_05": 0.01,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "mu_p": 0.6715639471522313,
+        "sigma_p": 0.0,
+        "sigma_p_test": {
+          "baseline_log_lik": -264.95933301595767,
+          "variant_log_lik": -264.95933301595767,
+          "delta_aic_baseline_minus_variant": -2.0,
+          "delta_bic_baseline_minus_variant": -4.804021044733304,
+          "lr_statistic": 0.0,
+          "lr_df": 1,
+          "lr_p_value": 0.5,
+          "lr_boundary_corrected": true,
+          "variant_supported_aic": false,
+          "variant_supported_lr_05": false
+        }
+      },
+      "inverse_gaussian_random_effects": {
+        "age_model": "linear",
+        "aic": 523.7619029999655,
+        "bic": 537.7820082236318,
+        "pit_ks_stat": 0.09524193108357107,
+        "pit_ks_pvalue": 0.2264577164527423,
+        "pit_ks_frac_reject_05": 0.015,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "mu_p": 0.9076882473924077,
+        "sigma_p": 0.0,
+        "sigma_p_test": {
+          "baseline_log_lik": -256.88095149998276,
+          "variant_log_lik": -256.88095149998276,
+          "delta_aic_baseline_minus_variant": -2.0,
+          "delta_bic_baseline_minus_variant": -4.804021044733304,
+          "lr_statistic": 0.0,
+          "lr_df": 1,
+          "lr_p_value": 0.5,
+          "lr_boundary_corrected": true,
+          "variant_supported_aic": false,
+          "variant_supported_lr_05": false
+        }
+      },
+      "wiener_multistage": {
+        "age_model": "power_law",
+        "aic": 513.6022737350952,
+        "bic": 536.0344420929612,
+        "pit_ks_stat": 0.14165355060316315,
+        "pit_ks_pvalue": 0.020187105419175483,
+        "pit_ks_frac_reject_05": 0.92,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "mean_p_negative_increment": 0.05108908514938696,
+        "tau_c": 180.95000000000002,
+        "changepoint_test": {
+          "baseline_log_lik": -336.09860848748605,
+          "variant_log_lik": -248.80113686754757,
+          "delta_aic_baseline_minus_variant": 166.5949432398769,
+          "delta_bic_baseline_minus_variant": 155.3788590609439,
+          "lr_statistic": 174.59494323987695,
+          "lr_df": 4,
+          "lr_p_value": 1.0792897663657154e-36,
+          "lr_boundary_corrected": false,
+          "variant_supported_aic": true,
+          "variant_supported_lr_05": true,
+          "caveat": "tau_c is unidentified under the eta1=eta2 null (the Davies 1987 problem for changepoint models); the chi-square asymptotic and this p-value are approximate, not exact -- variant_supported_aic is the primary selection criterion, as for every other model-selection decision in this study."
+        }
+      },
+      "gig": {
+        "age_model": "linear",
+        "aic": 518.9386458486483,
+        "bic": 532.9587510723145,
+        "pit_ks_stat": 0.0789857356183626,
+        "pit_ks_pvalue": 0.4326212376899856,
+        "pit_ks_frac_reject_05": 0.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "p_gid": -1.9007570448493163
+      },
+      "best_aic_family": "wiener_multistage",
+      "delta_aic_gamma_minus_ig": 20.200602441139722,
+      "per_tool_power_gamma": {
+        "1": 0.6858003577465748,
+        "2": 0.5487177790024946,
+        "3": 0.7511875293509865
+      },
+      "per_tool_power_ig_nonhomogeneous": {
+        "1": 0.9610057921095921,
+        "2": 0.6345285748295902,
+        "3": 1.0102914792702358
+      }
+    },
+    "M2": {
+      "gamma": {
+        "age_model": "power_law",
+        "aic": 713.813626182207,
+        "bic": 736.2800292520969,
+        "pit_ks_stat": 0.06636568248253613,
+        "pit_ks_pvalue": 0.40630745612919916,
+        "pit_ks_frac_reject_05": 0.0,
+        "pit_ks_n_seeds": 200.0,
+        "validation_passed": 1.0
+      },
+      "inverse_gaussian": {
+        "age_model": "linear",
+        "aic": 692.4922675869742,
+        "bic": 705.33021219834,
+        "pit_ks_stat": 0.05384256535725394,
+        "pit_ks_pvalue": 0.6471098092047792,
+        "pit_ks_frac_reject_05": 0.005,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true
+      },
+      "wiener": {
+        "age_model": "power_law",
+        "aic": 798.2139921635937,
+        "bic": 820.6803952334836,
+        "pit_ks_stat": 0.14785845987355656,
+        "pit_ks_pvalue": 0.0010914267383655763,
+        "pit_ks_frac_reject_05": 1.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "mean_p_negative_increment": 0.16271069857327278,
+        "max_p_negative_increment": 0.23236355628875766
+      },
+      "wiener_truncated": {
+        "age_model": "power_law",
+        "aic": 715.176105217375,
+        "bic": 737.642508287265,
+        "pit_ks_stat": 0.15738951917931224,
+        "pit_ks_pvalue": 0.0004089293299659677,
+        "pit_ks_frac_reject_05": 1.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "mean_p_negative_increment": 0.0,
+        "max_p_negative_increment": 0.0
+      },
+      "gamma_state": {
+        "age_model": "power_law",
+        "aic": 704.883514799003,
+        "bic": 730.5594040217344,
+        "pit_ks_stat": 0.06307923246682129,
+        "pit_ks_pvalue": 0.46390734940612477,
+        "pit_ks_frac_reject_05": 0.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "gamma_state": 2.0584444180221984
+      },
+      "inverse_gaussian_state": {
+        "age_model": "linear",
+        "aic": 686.9293843007864,
+        "bic": 702.9768150649935,
+        "pit_ks_stat": 0.07601884706485902,
+        "pit_ks_pvalue": 0.24161621460478075,
+        "pit_ks_frac_reject_05": 0.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "gamma_state": 1.660087494488835
+      },
+      "gamma_random_effects": {
+        "age_model": "linear",
+        "aic": 709.8249383905909,
+        "bic": 725.872369154798,
+        "pit_ks_stat": 0.06630985448992623,
+        "pit_ks_pvalue": 0.40712656239053574,
+        "pit_ks_frac_reject_05": 0.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "mu_p": 0.6473868311623567,
+        "sigma_p": 0.0,
+        "sigma_p_test": {
+          "baseline_log_lik": -349.91246919529544,
+          "variant_log_lik": -349.91246919529544,
+          "delta_aic_baseline_minus_variant": -2.0,
+          "delta_bic_baseline_minus_variant": -5.209486152841464,
+          "lr_statistic": 0.0,
+          "lr_df": 1,
+          "lr_p_value": 0.5,
+          "lr_boundary_corrected": true,
+          "variant_supported_aic": false,
+          "variant_supported_lr_05": false
+        }
+      },
+      "inverse_gaussian_random_effects": {
+        "age_model": "linear",
+        "aic": 694.1371457193409,
+        "bic": 710.184576483548,
+        "pit_ks_stat": 0.052466295526599,
+        "pit_ks_pvalue": 0.6704326180237464,
+        "pit_ks_frac_reject_05": 0.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "mu_p": 0.9356325405584502,
+        "sigma_p": 0.0,
+        "sigma_p_test": {
+          "baseline_log_lik": -342.06857285967044,
+          "variant_log_lik": -342.06857285967044,
+          "delta_aic_baseline_minus_variant": -2.0,
+          "delta_bic_baseline_minus_variant": -5.209486152841464,
+          "lr_statistic": 0.0,
+          "lr_df": 1,
+          "lr_p_value": 0.5,
+          "lr_boundary_corrected": true,
+          "variant_supported_aic": false,
+          "variant_supported_lr_05": false
+        }
+      },
+      "wiener_multistage": {
+        "age_model": "power_law",
+        "aic": 694.9812179930751,
+        "bic": 720.6571072158065,
+        "pit_ks_stat": 0.1073780873041682,
+        "pit_ks_pvalue": 0.04013856157716429,
+        "pit_ks_frac_reject_05": 0.705,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "mean_p_negative_increment": 0.11124906996865562,
+        "tau_c": 255.95000000000002,
+        "changepoint_test": {
+          "baseline_log_lik": -478.61590995874326,
+          "variant_log_lik": -339.49060899653756,
+          "delta_aic_baseline_minus_variant": 270.2506019244114,
+          "delta_bic_baseline_minus_variant": 257.41265731304566,
+          "lr_statistic": 278.2506019244114,
+          "lr_df": 4,
+          "lr_p_value": 5.310874726698696e-59,
+          "lr_boundary_corrected": false,
+          "variant_supported_aic": true,
+          "variant_supported_lr_05": true,
+          "caveat": "tau_c is unidentified under the eta1=eta2 null (the Davies 1987 problem for changepoint models); the chi-square asymptotic and this p-value are approximate, not exact -- variant_supported_aic is the primary selection criterion, as for every other model-selection decision in this study."
+        }
+      },
+      "gig": {
+        "age_model": "linear",
+        "aic": 691.7867480470518,
+        "bic": 707.8341788112589,
+        "pit_ks_stat": 0.0442963381866546,
+        "pit_ks_pvalue": 0.8162070105129503,
+        "pit_ks_frac_reject_05": 0.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "p_gid": -1.135790185469741
+      },
+      "best_aic_family": "inverse_gaussian_state",
+      "delta_aic_gamma_minus_ig": 21.321358595232823,
+      "per_tool_power_gamma": {
+        "4": 0.6448075284918104,
+        "5": 0.6550367790882216,
+        "6": 0.6342087689835678
+      },
+      "per_tool_power_ig_nonhomogeneous": {
+        "4": 1.0013780104721135,
+        "5": 0.7867098708276442,
+        "6": 1.1109557371921472
+      }
+    },
+    "M3": {
+      "gamma": {
+        "age_model": "linear",
+        "aic": 515.5548033776738,
+        "bic": 526.6034991168649,
+        "pit_ks_stat": 0.12659884675578678,
+        "pit_ks_pvalue": 0.050138634818657095,
+        "pit_ks_frac_reject_05": 0.56,
+        "pit_ks_n_seeds": 200.0,
+        "validation_passed": 0.0
+      },
+      "inverse_gaussian": {
+        "age_model": "linear",
+        "aic": 492.8115497429763,
+        "bic": 503.86024548216733,
+        "pit_ks_stat": 0.09249556025834511,
+        "pit_ks_pvalue": 0.2728297046411845,
+        "pit_ks_frac_reject_05": 0.015,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true
+      },
+      "wiener": {
+        "age_model": "power_law",
+        "aic": 565.66106292931,
+        "bic": 584.9962804728943,
+        "pit_ks_stat": 0.1426689263885732,
+        "pit_ks_pvalue": 0.019792418548876797,
+        "pit_ks_frac_reject_05": 0.95,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "mean_p_negative_increment": 0.09760201204376663,
+        "max_p_negative_increment": 0.1402744269700747
+      },
+      "wiener_truncated": {
+        "age_model": "power_law",
+        "aic": 523.415267940619,
+        "bic": 542.7504854842032,
+        "pit_ks_stat": 0.11070863909983737,
+        "pit_ks_pvalue": 0.11922267267453918,
+        "pit_ks_frac_reject_05": 0.135,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "mean_p_negative_increment": 0.0,
+        "max_p_negative_increment": 0.0
+      },
+      "gamma_state": {
+        "age_model": "power_law",
+        "aic": 509.7021675592237,
+        "bic": 531.7995590376057,
+        "pit_ks_stat": 0.11546859683352245,
+        "pit_ks_pvalue": 0.09337928703562426,
+        "pit_ks_frac_reject_05": 0.22,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "gamma_state": 2.504177019385624
+      },
+      "inverse_gaussian_state": {
+        "age_model": "linear",
+        "aic": 480.0552699244714,
+        "bic": 493.8661395984602,
+        "pit_ks_stat": 0.11953579843383486,
+        "pit_ks_pvalue": 0.07170263470725236,
+        "pit_ks_frac_reject_05": 0.295,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "gamma_state": 2.431207763223907
+      },
+      "gamma_random_effects": {
+        "age_model": "linear",
+        "aic": 517.2021741650049,
+        "bic": 531.0130438389936,
+        "pit_ks_stat": 0.11469883698849764,
+        "pit_ks_pvalue": 0.09660045575247024,
+        "pit_ks_frac_reject_05": 0.2,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "mu_p": 0.9347144909457624,
+        "sigma_p": 0.0,
+        "sigma_p_test": {
+          "baseline_log_lik": -253.6010870825024,
+          "variant_log_lik": -253.6010870825024,
+          "delta_aic_baseline_minus_variant": -2.0,
+          "delta_bic_baseline_minus_variant": -4.762173934797829,
+          "lr_statistic": 0.0,
+          "lr_df": 1,
+          "lr_p_value": 0.5,
+          "lr_boundary_corrected": true,
+          "variant_supported_aic": false,
+          "variant_supported_lr_05": false
+        }
+      },
+      "inverse_gaussian_random_effects": {
+        "age_model": "linear",
+        "aic": 490.60871179525884,
+        "bic": 504.41958146924765,
+        "pit_ks_stat": 0.10677571612680119,
+        "pit_ks_pvalue": 0.14065873524320519,
+        "pit_ks_frac_reject_05": 0.035,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "mu_p": 1.210854210590973,
+        "sigma_p": 0.0,
+        "sigma_p_test": {
+          "baseline_log_lik": -240.30435589762942,
+          "variant_log_lik": -240.30435589762942,
+          "delta_aic_baseline_minus_variant": -2.0,
+          "delta_bic_baseline_minus_variant": -4.7621739347977154,
+          "lr_statistic": 0.0,
+          "lr_df": 1,
+          "lr_p_value": 0.5,
+          "lr_boundary_corrected": true,
+          "variant_supported_aic": false,
+          "variant_supported_lr_05": false
+        }
+      },
+      "wiener_multistage": {
+        "age_model": "power_law",
+        "aic": 502.1610786064421,
+        "bic": 524.2584700848241,
+        "pit_ks_stat": 0.16153974549423267,
+        "pit_ks_pvalue": 0.0056174296815471704,
+        "pit_ks_frac_reject_05": 1.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": false,
+        "mean_p_negative_increment": 0.048142626051242615,
+        "tau_c": 172.85000000000002,
+        "changepoint_test": {
+          "baseline_log_lik": -304.2620023867683,
+          "variant_log_lik": -243.08053930322106,
+          "delta_aic_baseline_minus_variant": 114.36292616709449,
+          "delta_bic_baseline_minus_variant": 103.31423042790345,
+          "lr_statistic": 122.36292616709449,
+          "lr_df": 4,
+          "lr_p_value": 1.6706640388793893e-25,
+          "lr_boundary_corrected": false,
+          "variant_supported_aic": true,
+          "variant_supported_lr_05": true,
+          "caveat": "tau_c is unidentified under the eta1=eta2 null (the Davies 1987 problem for changepoint models); the chi-square asymptotic and this p-value are approximate, not exact -- variant_supported_aic is the primary selection criterion, as for every other model-selection decision in this study."
+        }
+      },
+      "gig": {
+        "age_model": "linear",
+        "aic": 486.2223637531839,
+        "bic": 500.0332334271727,
+        "pit_ks_stat": 0.05832044409159229,
+        "pit_ks_pvalue": 0.7780057334726362,
+        "pit_ks_frac_reject_05": 0.0,
+        "pit_ks_n_seeds": 200,
+        "validation_passed": true,
+        "p_gid": -2.7651346522408184
+      },
+      "best_aic_family": "inverse_gaussian_state",
+      "delta_aic_gamma_minus_ig": 22.74325363469751,
+      "per_tool_power_gamma": {
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0
+      },
+      "per_tool_power_ig_nonhomogeneous": {
+        "7": 1.271474188475612,
+        "8": 1.228644211238431,
+        "9": 1.1069826657903232
+      }
+    }
+  },
+  "age_model_criterion_sensitivity": {
+    "M1": {
+      "gamma": {
+        "aic_gap_stationary_minus_nonhomogeneous": 7.505787097563598,
+        "bic_gap_stationary_minus_nonhomogeneous": -0.9062760366361999,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": true
+      },
+      "inverse_gaussian": {
+        "aic_gap_stationary_minus_nonhomogeneous": -3.157080762802593,
+        "bic_gap_stationary_minus_nonhomogeneous": -11.569143897002391,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "wiener": {
+        "aic_gap_stationary_minus_nonhomogeneous": 84.59409775721463,
+        "bic_gap_stationary_minus_nonhomogeneous": 76.18203462301483,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "wiener_truncated": {
+        "aic_gap_stationary_minus_nonhomogeneous": 43.92564422279884,
+        "bic_gap_stationary_minus_nonhomogeneous": 35.51358108859904,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "gamma_state": {
+        "aic_gap_stationary_minus_nonhomogeneous": 16.723092078799255,
+        "bic_gap_stationary_minus_nonhomogeneous": 8.311028944599457,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "inverse_gaussian_state": {
+        "aic_gap_stationary_minus_nonhomogeneous": 1.5905249732362563,
+        "bic_gap_stationary_minus_nonhomogeneous": -6.8215381609635415,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "gamma_random_effects": {
+        "aic_gap_stationary_minus_nonhomogeneous": -2.0,
+        "bic_gap_stationary_minus_nonhomogeneous": -4.804021044733304,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "inverse_gaussian_random_effects": {
+        "aic_gap_stationary_minus_nonhomogeneous": -2.0,
+        "bic_gap_stationary_minus_nonhomogeneous": -4.804021044733304,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "wiener_multistage": {
+        "aic_gap_stationary_minus_nonhomogeneous": 166.5949432398769,
+        "bic_gap_stationary_minus_nonhomogeneous": 155.3788590609439,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "gig": {
+        "aic_gap_stationary_minus_nonhomogeneous": -4.598670781916553,
+        "bic_gap_stationary_minus_nonhomogeneous": -13.010733916116465,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      }
+    },
+    "M2": {
+      "gamma": {
+        "aic_gap_stationary_minus_nonhomogeneous": 5.814281819457051,
+        "bic_gap_stationary_minus_nonhomogeneous": -3.8141766390672274,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": true
+      },
+      "inverse_gaussian": {
+        "aic_gap_stationary_minus_nonhomogeneous": -3.9111918735069366,
+        "bic_gap_stationary_minus_nonhomogeneous": -13.539650332031101,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "wiener": {
+        "aic_gap_stationary_minus_nonhomogeneous": 167.01782775444917,
+        "bic_gap_stationary_minus_nonhomogeneous": 157.3893692959249,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "wiener_truncated": {
+        "aic_gap_stationary_minus_nonhomogeneous": 108.25577985927794,
+        "bic_gap_stationary_minus_nonhomogeneous": 98.62732140075377,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "gamma_state": {
+        "aic_gap_stationary_minus_nonhomogeneous": 15.001538395101988,
+        "bic_gap_stationary_minus_nonhomogeneous": 5.37307993657771,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "inverse_gaussian_state": {
+        "aic_gap_stationary_minus_nonhomogeneous": 1.8779351956642358,
+        "bic_gap_stationary_minus_nonhomogeneous": -7.7505232628600425,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "gamma_random_effects": {
+        "aic_gap_stationary_minus_nonhomogeneous": -2.0,
+        "bic_gap_stationary_minus_nonhomogeneous": -5.209486152841464,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "inverse_gaussian_random_effects": {
+        "aic_gap_stationary_minus_nonhomogeneous": -2.0,
+        "bic_gap_stationary_minus_nonhomogeneous": -5.209486152841464,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "wiener_multistage": {
+        "aic_gap_stationary_minus_nonhomogeneous": 270.2506019244114,
+        "bic_gap_stationary_minus_nonhomogeneous": 257.41265731304566,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "gig": {
+        "aic_gap_stationary_minus_nonhomogeneous": -3.6454418369482937,
+        "bic_gap_stationary_minus_nonhomogeneous": -13.273900295472572,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      }
+    },
+    "M3": {
+      "gamma": {
+        "aic_gap_stationary_minus_nonhomogeneous": -3.825199534804142,
+        "bic_gap_stationary_minus_nonhomogeneous": -12.111721339197288,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "inverse_gaussian": {
+        "aic_gap_stationary_minus_nonhomogeneous": -1.3695058427570643,
+        "bic_gap_stationary_minus_nonhomogeneous": -9.656027647150268,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "wiener": {
+        "aic_gap_stationary_minus_nonhomogeneous": 50.86294184422479,
+        "bic_gap_stationary_minus_nonhomogeneous": 42.57642003983142,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "wiener_truncated": {
+        "aic_gap_stationary_minus_nonhomogeneous": 21.011868379656107,
+        "bic_gap_stationary_minus_nonhomogeneous": 12.725346575262847,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "gamma_state": {
+        "aic_gap_stationary_minus_nonhomogeneous": 2.5233202533863164,
+        "bic_gap_stationary_minus_nonhomogeneous": -5.763201551006887,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": true
+      },
+      "inverse_gaussian_state": {
+        "aic_gap_stationary_minus_nonhomogeneous": -4.648043697869525,
+        "bic_gap_stationary_minus_nonhomogeneous": -12.934565502262785,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "gamma_random_effects": {
+        "aic_gap_stationary_minus_nonhomogeneous": -2.0,
+        "bic_gap_stationary_minus_nonhomogeneous": -4.762173934797829,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "inverse_gaussian_random_effects": {
+        "aic_gap_stationary_minus_nonhomogeneous": -2.0,
+        "bic_gap_stationary_minus_nonhomogeneous": -4.7621739347977154,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      },
+      "wiener_multistage": {
+        "aic_gap_stationary_minus_nonhomogeneous": 114.36292616709449,
+        "bic_gap_stationary_minus_nonhomogeneous": 103.31423042790345,
+        "age_model_under_aic": "power_law",
+        "age_model_under_bic": "power_law",
+        "criterion_dependent": false
+      },
+      "gig": {
+        "aic_gap_stationary_minus_nonhomogeneous": 0.18664411760471467,
+        "bic_gap_stationary_minus_nonhomogeneous": -8.099877686788545,
+        "age_model_under_aic": "linear",
+        "age_model_under_bic": "linear",
+        "criterion_dependent": false
+      }
+    }
+  },
+  "variant_vs_baseline": {
+    "M1": {
+      "gamma_state": {
+        "baseline": "gamma",
+        "baseline_log_lik": -264.32295780777304,
+        "variant_log_lik": -259.4364256159411,
+        "delta_aic_baseline_minus_variant": 7.7730643836638365,
+        "delta_bic_baseline_minus_variant": 4.969043338930533,
+        "lr_statistic": 9.773064383663836,
+        "lr_df": 1,
+        "lr_p_value": 0.0017708705333177488,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true
+      },
+      "inverse_gaussian_state": {
+        "baseline": "inverse_gaussian",
+        "baseline_log_lik": -257.2226565872032,
+        "variant_log_lik": -254.73996731197911,
+        "delta_aic_baseline_minus_variant": 2.965378550448122,
+        "delta_bic_baseline_minus_variant": 0.16135750571481822,
+        "lr_statistic": 4.965378550448122,
+        "lr_df": 1,
+        "lr_p_value": 0.02585965416190137,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true
+      },
+      "gamma_random_effects": {
+        "baseline": "pooled-exponent (own sigma_p=0)",
+        "baseline_log_lik": -264.95933301595767,
+        "variant_log_lik": -264.95933301595767,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -4.804021044733304,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "inverse_gaussian_random_effects": {
+        "baseline": "pooled-exponent (own sigma_p=0)",
+        "baseline_log_lik": -256.88095149998276,
+        "variant_log_lik": -256.88095149998276,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -4.804021044733304,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "wiener_multistage": {
+        "baseline": "wiener",
+        "baseline_log_lik": -336.09860848748605,
+        "variant_log_lik": -248.80113686754757,
+        "delta_aic_baseline_minus_variant": 166.5949432398769,
+        "delta_bic_baseline_minus_variant": 155.3788590609439,
+        "lr_statistic": 174.59494323987695,
+        "lr_df": 4,
+        "lr_p_value": 1.0792897663657154e-36,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true,
+        "caveat": "tau_c is unidentified under the eta1=eta2 null (the Davies 1987 problem for changepoint models); the chi-square asymptotic and this p-value are approximate, not exact -- variant_supported_aic is the primary selection criterion, as for every other model-selection decision in this study."
+      },
+      "gig": {
+        "baseline": "inverse_gaussian",
+        "baseline_log_lik": -257.2226565872032,
+        "variant_log_lik": -254.46932292432413,
+        "delta_aic_baseline_minus_variant": 3.5066673257580305,
+        "delta_bic_baseline_minus_variant": 0.7026462810248404,
+        "lr_statistic": 5.506667325758087,
+        "lr_df": 1,
+        "lr_p_value": 0.01894411086756149,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true
+      }
+    },
+    "M2": {
+      "gamma_state": {
+        "baseline": "gamma",
+        "baseline_log_lik": -349.9068130911035,
+        "variant_log_lik": -344.4417573995015,
+        "delta_aic_baseline_minus_variant": 8.930111383204007,
+        "delta_bic_baseline_minus_variant": 5.720625230362543,
+        "lr_statistic": 10.930111383204007,
+        "lr_df": 1,
+        "lr_p_value": 0.0009461380737096014,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true
+      },
+      "inverse_gaussian_state": {
+        "baseline": "inverse_gaussian",
+        "baseline_log_lik": -342.2461337934871,
+        "variant_log_lik": -338.4646921503932,
+        "delta_aic_baseline_minus_variant": 5.562883286187798,
+        "delta_bic_baseline_minus_variant": 2.353397133346448,
+        "lr_statistic": 7.562883286187798,
+        "lr_df": 1,
+        "lr_p_value": 0.005958259176003571,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true
+      },
+      "gamma_random_effects": {
+        "baseline": "pooled-exponent (own sigma_p=0)",
+        "baseline_log_lik": -349.91246919529544,
+        "variant_log_lik": -349.91246919529544,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -5.209486152841464,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "inverse_gaussian_random_effects": {
+        "baseline": "pooled-exponent (own sigma_p=0)",
+        "baseline_log_lik": -342.06857285967044,
+        "variant_log_lik": -342.06857285967044,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -5.209486152841464,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "wiener_multistage": {
+        "baseline": "wiener",
+        "baseline_log_lik": -478.61590995874326,
+        "variant_log_lik": -339.49060899653756,
+        "delta_aic_baseline_minus_variant": 270.2506019244114,
+        "delta_bic_baseline_minus_variant": 257.41265731304566,
+        "lr_statistic": 278.2506019244114,
+        "lr_df": 4,
+        "lr_p_value": 5.310874726698696e-59,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true,
+        "caveat": "tau_c is unidentified under the eta1=eta2 null (the Davies 1987 problem for changepoint models); the chi-square asymptotic and this p-value are approximate, not exact -- variant_supported_aic is the primary selection criterion, as for every other model-selection decision in this study."
+      },
+      "gig": {
+        "baseline": "inverse_gaussian",
+        "baseline_log_lik": -342.2461337934871,
+        "variant_log_lik": -340.8933740235259,
+        "delta_aic_baseline_minus_variant": 0.7055195399224203,
+        "delta_bic_baseline_minus_variant": -2.50396661291893,
+        "lr_statistic": 2.7055195399224203,
+        "lr_df": 1,
+        "lr_p_value": 0.10000149947916402,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      }
+    },
+    "M3": {
+      "gamma_state": {
+        "baseline": "gamma",
+        "baseline_log_lik": -253.77740168883693,
+        "variant_log_lik": -246.85108377961186,
+        "delta_aic_baseline_minus_variant": 5.852635818450096,
+        "delta_bic_baseline_minus_variant": -5.196059920740822,
+        "lr_statistic": 13.852635818450153,
+        "lr_df": 1,
+        "lr_p_value": 0.00019771921036856053,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true
+      },
+      "inverse_gaussian_state": {
+        "baseline": "inverse_gaussian",
+        "baseline_log_lik": -242.40577487148815,
+        "variant_log_lik": -235.0276349622357,
+        "delta_aic_baseline_minus_variant": 12.75627981850488,
+        "delta_bic_baseline_minus_variant": 9.994105883707107,
+        "lr_statistic": 14.75627981850488,
+        "lr_df": 1,
+        "lr_p_value": 0.00012233938401321615,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true
+      },
+      "gamma_random_effects": {
+        "baseline": "pooled-exponent (own sigma_p=0)",
+        "baseline_log_lik": -253.6010870825024,
+        "variant_log_lik": -253.6010870825024,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -4.762173934797829,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "inverse_gaussian_random_effects": {
+        "baseline": "pooled-exponent (own sigma_p=0)",
+        "baseline_log_lik": -240.30435589762942,
+        "variant_log_lik": -240.30435589762942,
+        "delta_aic_baseline_minus_variant": -2.0,
+        "delta_bic_baseline_minus_variant": -4.7621739347977154,
+        "lr_statistic": 0.0,
+        "lr_df": 1,
+        "lr_p_value": 0.5,
+        "lr_boundary_corrected": true,
+        "variant_supported_aic": false,
+        "variant_supported_lr_05": false
+      },
+      "wiener_multistage": {
+        "baseline": "wiener",
+        "baseline_log_lik": -304.2620023867683,
+        "variant_log_lik": -243.08053930322106,
+        "delta_aic_baseline_minus_variant": 114.36292616709449,
+        "delta_bic_baseline_minus_variant": 103.31423042790345,
+        "lr_statistic": 122.36292616709449,
+        "lr_df": 4,
+        "lr_p_value": 1.6706640388793893e-25,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true,
+        "caveat": "tau_c is unidentified under the eta1=eta2 null (the Davies 1987 problem for changepoint models); the chi-square asymptotic and this p-value are approximate, not exact -- variant_supported_aic is the primary selection criterion, as for every other model-selection decision in this study."
+      },
+      "gig": {
+        "baseline": "inverse_gaussian",
+        "baseline_log_lik": -242.40577487148815,
+        "variant_log_lik": -238.11118187659196,
+        "delta_aic_baseline_minus_variant": 6.589185989792384,
+        "delta_bic_baseline_minus_variant": 3.8270120549946114,
+        "lr_statistic": 8.589185989792384,
+        "lr_df": 1,
+        "lr_p_value": 0.003381651351142612,
+        "lr_boundary_corrected": false,
+        "variant_supported_aic": true,
+        "variant_supported_lr_05": true
+      }
+    }
+  },
+  "state_aware_resimulation": {
+    "gamma_state": {
+      "M1": {
+        "naive_trajectory_rmse_um": 25.48672080178768,
+        "naive_terminal_bias_um": -64.47248739924163,
+        "state_aware_trajectory_rmse_um": 12.632659952386856,
+        "state_aware_terminal_bias_um": -4.190275558036494,
+        "rmse_gap_closed_frac": 0.5043434559262414,
+        "bias_gap_closed_frac": 0.9350067644809718,
+        "state_aware_validation_passed": true
+      },
+      "M2": {
+        "naive_trajectory_rmse_um": 28.867565571161638,
+        "naive_terminal_bias_um": -65.2524455850734,
+        "state_aware_trajectory_rmse_um": 16.95965984638741,
+        "state_aware_terminal_bias_um": -6.074215115742291,
+        "rmse_gap_closed_frac": 0.4125012098931573,
+        "bias_gap_closed_frac": 0.9069120695587879,
+        "state_aware_validation_passed": true
+      },
+      "M3": {
+        "naive_trajectory_rmse_um": 30.8652980261832,
+        "naive_terminal_bias_um": -63.91317171760909,
+        "state_aware_trajectory_rmse_um": 13.407678239578518,
+        "state_aware_terminal_bias_um": -5.9741386823853775,
+        "rmse_gap_closed_frac": 0.565606713785666,
+        "bias_gap_closed_frac": 0.906527269390084,
+        "state_aware_validation_passed": true
+      }
+    },
+    "inverse_gaussian_state": {
+      "M1": {
+        "naive_trajectory_rmse_um": 31.523548851291732,
+        "naive_terminal_bias_um": -55.02827837205306,
+        "state_aware_trajectory_rmse_um": 22.32648901474754,
+        "state_aware_terminal_bias_um": -14.563527468887068,
+        "rmse_gap_closed_frac": 0.29175204479451644,
+        "bias_gap_closed_frac": 0.735344664602784,
+        "state_aware_validation_passed": false
+      },
+      "M2": {
+        "naive_trajectory_rmse_um": 39.6332721545005,
+        "naive_terminal_bias_um": -65.75723450882533,
+        "state_aware_trajectory_rmse_um": 28.236216346774007,
+        "state_aware_terminal_bias_um": -20.68946245639242,
+        "rmse_gap_closed_frac": 0.2875628275984353,
+        "bias_gap_closed_frac": 0.6853659888386019,
+        "state_aware_validation_passed": false
+      },
+      "M3": {
+        "naive_trajectory_rmse_um": 39.02795273946685,
+        "naive_terminal_bias_um": -67.70120175013987,
+        "state_aware_trajectory_rmse_um": 25.609148655666303,
+        "state_aware_terminal_bias_um": -18.59635158605767,
+        "rmse_gap_closed_frac": 0.3438254671819062,
+        "bias_gap_closed_frac": 0.725317260176711,
+        "state_aware_validation_passed": false
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "M1": {
+    "model": "nonhomogeneous_gamma_rounded",
+    "schema_version": 3.0,
+    "selected_age_model": "power_law",
+    "beta": 0.5103477701610285,
+    "eta": 34.50768225375845,
+    "power": 0.6858003577465748,
+    "time_reference_s": 1000.0,
+    "wear_resolution_um": 1.0,
+    "components": [
+      {
+        "tool_id": 1,
+        "eta": 34.50768225375845,
+        "power": 0.6858003577465748,
+        "beta": 0.5103477701610285,
+        "time_reference_s": 1000.0
+      },
+      {
+        "tool_id": 2,
+        "eta": 34.51139920781829,
+        "power": 0.5487177790024946,
+        "beta": 0.5103477701610285,
+        "time_reference_s": 1000.0
+      },
+      {
+        "tool_id": 3,
+        "eta": 29.78366426448476,
+        "power": 0.7511875293509865,
+        "beta": 0.5103477701610285,
+        "time_reference_s": 1000.0
+      }
+    ],
+    "n_windows": 122.0,
+    "n_zero_windows": 2.0,
+    "log_lik": -264.32295780777304,
+    "aic": 542.6459156155461,
+    "bic": 562.2740629286789,
+    "nonhomogeneous_aic": 542.6459156155461,
+    "nonhomogeneous_bic": 562.2740629286789,
+    "stationary_aic": 550.1517027131097,
+    "stationary_bic": 561.3677868920427,
+    "machine_id": 1.0,
+    "window_size": 15.0,
+    "wear_scale_um": 160.0,
+    "pit_ks_stat": 0.10110538967359056,
+    "pit_ks_pvalue": 0.17448846554602718,
+    "pit_ks_frac_reject_05": 0.05,
+    "pit_ks_n_seeds": 200.0,
+    "trajectory_rmse_um": 15.307292427897185,
+    "terminal_bias_um": -3.951417082947046,
+    "delta_aic_vs_stationary": 7.505787097563598,
+    "validation_passed": 1.0
+  },
+  "M2": {
+    "model": "nonhomogeneous_gamma_rounded",
+    "schema_version": 3.0,
+    "selected_age_model": "power_law",
+    "beta": 0.4685883433088449,
+    "eta": 23.512788653089018,
+    "power": 0.6448075284918104,
+    "time_reference_s": 1000.0,
+    "wear_resolution_um": 1.0,
+    "components": [
+      {
+        "tool_id": 4,
+        "eta": 23.512788653089018,
+        "power": 0.6448075284918104,
+        "beta": 0.4685883433088449,
+        "time_reference_s": 1000.0
+      },
+      {
+        "tool_id": 5,
+        "eta": 25.33721398786051,
+        "power": 0.6550367790882216,
+        "beta": 0.4685883433088449,
+        "time_reference_s": 1000.0
+      },
+      {
+        "tool_id": 6,
+        "eta": 21.797073224704146,
+        "power": 0.6342087689835678,
+        "beta": 0.4685883433088449,
+        "time_reference_s": 1000.0
+      }
+    ],
+    "n_windows": 183.0,
+    "n_zero_windows": 28.0,
+    "log_lik": -349.9068130911035,
+    "aic": 713.813626182207,
+    "bic": 736.2800292520969,
+    "nonhomogeneous_aic": 713.813626182207,
+    "nonhomogeneous_bic": 736.2800292520969,
+    "stationary_aic": 719.6279080016641,
+    "stationary_bic": 732.4658526130297,
+    "machine_id": 2.0,
+    "window_size": 15.0,
+    "wear_scale_um": 160.0,
+    "pit_ks_stat": 0.06636568248253613,
+    "pit_ks_pvalue": 0.40630745612919916,
+    "pit_ks_frac_reject_05": 0.0,
+    "pit_ks_n_seeds": 200.0,
+    "trajectory_rmse_um": 17.46058553414859,
+    "terminal_bias_um": -2.5934171315702392,
+    "delta_aic_vs_stationary": 5.814281819457051,
+    "validation_passed": 1.0
+  },
+  "M3": {
+    "model": "nonhomogeneous_gamma_rounded",
+    "schema_version": 3.0,
+    "selected_age_model": "linear",
+    "beta": 0.5359437209003388,
+    "eta": 21.760505773812646,
+    "power": 1.0,
+    "time_reference_s": 1000.0,
+    "wear_resolution_um": 1.0,
+    "components": [
+      {
+        "tool_id": 7,
+        "eta": 21.760505773812646,
+        "power": 1.0,
+        "beta": 0.5359437209003388,
+        "time_reference_s": 1000.0
+      },
+      {
+        "tool_id": 8,
+        "eta": 21.031357815731887,
+        "power": 1.0,
+        "beta": 0.5359437209003388,
+        "time_reference_s": 1000.0
+      },
+      {
+        "tool_id": 9,
+        "eta": 23.57103482682129,
+        "power": 1.0,
+        "beta": 0.5359437209003388,
+        "time_reference_s": 1000.0
+      }
+    ],
+    "n_windows": 117.0,
+    "n_zero_windows": 1.0,
+    "log_lik": -253.77740168883693,
+    "aic": 515.5548033776738,
+    "bic": 526.6034991168649,
+    "nonhomogeneous_aic": 519.380002912478,
+    "nonhomogeneous_bic": 538.7152204560622,
+    "stationary_aic": 515.5548033776738,
+    "stationary_bic": 526.6034991168649,
+    "machine_id": 3.0,
+    "window_size": 15.0,
+    "wear_scale_um": 160.0,
+    "pit_ks_stat": 0.12659884675578678,
+    "pit_ks_pvalue": 0.050138634818657095,
+    "pit_ks_frac_reject_05": 0.56,
+    "pit_ks_n_seeds": 200.0,
+    "trajectory_rmse_um": 14.008208718675302,
+    "terminal_bias_um": -1.1047043551467748,
+    "delta_aic_vs_stationary": -3.825199534804142,
+    "validation_passed": 0.0
+  }
+}

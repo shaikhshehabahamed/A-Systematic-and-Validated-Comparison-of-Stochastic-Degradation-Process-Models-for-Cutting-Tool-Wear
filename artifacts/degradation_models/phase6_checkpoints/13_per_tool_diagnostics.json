@@ -1,0 +1,80 @@
+{
+  "M1": {
+    "selected_age_model": "power_law",
+    "per_tool": {
+      "1": {
+        "eta": 34.50768225375845,
+        "power": 0.6858003577465748,
+        "rmse_um": 16.4090677079586,
+        "terminal_bias_um": 0.2667769484733924,
+        "terminal_wear_um": 158.0
+      },
+      "2": {
+        "eta": 34.51139920781829,
+        "power": 0.5487177790024946,
+        "rmse_um": 13.87345040670639,
+        "terminal_bias_um": -15.23651148340602,
+        "terminal_wear_um": 145.0
+      },
+      "3": {
+        "eta": 29.78366426448476,
+        "power": 0.7511875293509865,
+        "rmse_um": 15.520824984540502,
+        "terminal_bias_um": 3.1154832860914894,
+        "terminal_wear_um": 152.0
+      }
+    }
+  },
+  "M2": {
+    "selected_age_model": "power_law",
+    "per_tool": {
+      "4": {
+        "eta": 23.512788653089018,
+        "power": 0.6448075284918104,
+        "rmse_um": 14.668072627633029,
+        "terminal_bias_um": -3.984867388379598,
+        "terminal_wear_um": 149.0
+      },
+      "5": {
+        "eta": 25.33721398786051,
+        "power": 0.6550367790882216,
+        "rmse_um": 22.904343359462352,
+        "terminal_bias_um": 10.831523458747142,
+        "terminal_wear_um": 148.0
+      },
+      "6": {
+        "eta": 21.797073224704146,
+        "power": 0.6342087689835678,
+        "rmse_um": 13.223268969823337,
+        "terminal_bias_um": -14.626907465078261,
+        "terminal_wear_um": 147.0
+      }
+    }
+  },
+  "M3": {
+    "selected_age_model": "linear",
+    "per_tool": {
+      "7": {
+        "eta": 21.760505773812646,
+        "power": 1.0,
+        "rmse_um": 13.354145510614698,
+        "terminal_bias_um": -10.815584018193903,
+        "terminal_wear_um": 153.0
+      },
+      "8": {
+        "eta": 21.031357815731887,
+        "power": 1.0,
+        "rmse_um": 15.27033246721142,
+        "terminal_bias_um": 13.340736083635448,
+        "terminal_wear_um": 150.0
+      },
+      "9": {
+        "eta": 23.57103482682129,
+        "power": 1.0,
+        "rmse_um": 13.421874677657428,
+        "terminal_bias_um": -5.83926513088187,
+        "terminal_wear_um": 160.0
+      }
+    }
+  }
+}

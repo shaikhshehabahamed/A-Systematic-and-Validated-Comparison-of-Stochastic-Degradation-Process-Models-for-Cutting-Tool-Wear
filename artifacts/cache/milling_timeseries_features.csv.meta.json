@@ -1,0 +1,13 @@
+{
+  "datasetDOI": "10.17632/zpxs87bjt8.3",
+  "filelistSha256": "a9d974cdadf6a00a847dd8ac05bd6ef65a08f927e32fa7356b3ae982f896b5cb",
+  "h5InventorySha256": "f2f32bf52c4b052c1583b858cfe224275bade2a24ecc67d627d1afd4cd33ea75",
+  "featureNames": [
+    "sensor_force_rms",
+    "sensor_force_std",
+    "spindle_torque_rms",
+    "position_deviation_rms",
+    "run_duration_s"
+  ],
+  "rows": 6418
+}

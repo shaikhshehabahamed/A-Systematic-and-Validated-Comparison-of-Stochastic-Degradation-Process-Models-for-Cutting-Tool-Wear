@@ -1,0 +1,731 @@
+{
+  "vuong_pairwise": {
+    "n_tests": 123,
+    "n_significant_uncorrected": 58,
+    "n_significant_fdr_corrected": 20,
+    "conclusion_changed": true,
+    "detail": {
+      "M2:inverse_gaussian_vs_wiener": {
+        "p_value": 2.5418536274666407e-05,
+        "q_value": 0.0022051895849627854,
+        "significant_at_fdr": true
+      },
+      "M2:wiener_vs_wiener_truncated": {
+        "p_value": 3.5856741218907084e-05,
+        "q_value": 0.0022051895849627854,
+        "significant_at_fdr": true
+      },
+      "M2:gamma_vs_gamma_random_effects": {
+        "p_value": 0.00010951731432830975,
+        "q_value": 0.0044902098874607,
+        "significant_at_fdr": true
+      },
+      "M2:wiener_vs_inverse_gaussian_state": {
+        "p_value": 0.0002847615840185524,
+        "q_value": 0.005557663010397997,
+        "significant_at_fdr": true
+      },
+      "M2:wiener_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.00030230380408057894,
+        "q_value": 0.005557663010397997,
+        "significant_at_fdr": true
+      },
+      "M2:wiener_vs_gamma_state": {
+        "p_value": 0.00033030018106074003,
+        "q_value": 0.005557663010397997,
+        "significant_at_fdr": true
+      },
+      "M2:wiener_vs_gamma_random_effects": {
+        "p_value": 0.00034164447381928063,
+        "q_value": 0.005557663010397997,
+        "significant_at_fdr": true
+      },
+      "M2:gamma_vs_wiener": {
+        "p_value": 0.0003614740169364551,
+        "q_value": 0.005557663010397997,
+        "significant_at_fdr": true
+      },
+      "M2:inverse_gaussian_vs_wiener_truncated": {
+        "p_value": 0.0008259082825892392,
+        "q_value": 0.01128741319538627,
+        "significant_at_fdr": true
+      },
+      "M2:wiener_vs_gig": {
+        "p_value": 0.001168694249920469,
+        "q_value": 0.014374939274021767,
+        "significant_at_fdr": true
+      },
+      "M3:wiener_vs_gamma_state": {
+        "p_value": 0.00257206080302387,
+        "q_value": 0.028760316251994187,
+        "significant_at_fdr": true
+      },
+      "M1:wiener_vs_gig": {
+        "p_value": 0.003674186982279554,
+        "q_value": 0.034920579262832256,
+        "significant_at_fdr": true
+      },
+      "M2:wiener_truncated_vs_inverse_gaussian_state": {
+        "p_value": 0.0036907929302180432,
+        "q_value": 0.034920579262832256,
+        "significant_at_fdr": true
+      },
+      "M1:wiener_vs_inverse_gaussian_state": {
+        "p_value": 0.004018468120973183,
+        "q_value": 0.03530511277712153,
+        "significant_at_fdr": true
+      },
+      "M2:gamma_vs_inverse_gaussian_state": {
+        "p_value": 0.005173933922718525,
+        "q_value": 0.042426258166291905,
+        "significant_at_fdr": true
+      },
+      "M1:inverse_gaussian_vs_wiener": {
+        "p_value": 0.005552067750570653,
+        "q_value": 0.0426815208325119,
+        "significant_at_fdr": true
+      },
+      "M3:inverse_gaussian_state_vs_gamma_random_effects": {
+        "p_value": 0.006272307427658109,
+        "q_value": 0.04538198903540867,
+        "significant_at_fdr": true
+      },
+      "M2:inverse_gaussian_state_vs_gamma_random_effects": {
+        "p_value": 0.007014966944413261,
+        "q_value": 0.04793560745349062,
+        "significant_at_fdr": true
+      },
+      "M1:wiener_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.007678870490267695,
+        "q_value": 0.04797840078296508,
+        "significant_at_fdr": true
+      },
+      "M2:wiener_truncated_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.007801365980969932,
+        "q_value": 0.04797840078296508,
+        "significant_at_fdr": true
+      },
+      "M3:wiener_truncated_vs_inverse_gaussian_state": {
+        "p_value": 0.009140831264359503,
+        "q_value": 0.051154657558366214,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_vs_inverse_gaussian": {
+        "p_value": 0.009421968606025809,
+        "q_value": 0.051154657558366214,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_vs_inverse_gaussian_state": {
+        "p_value": 0.009565505071889616,
+        "q_value": 0.051154657558366214,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_vs_inverse_gaussian_state": {
+        "p_value": 0.010220988150299874,
+        "q_value": 0.05238256427028685,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_vs_gamma_state": {
+        "p_value": 0.012988106223997561,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_vs_wiener": {
+        "p_value": 0.013861441473403839,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M2:inverse_gaussian_vs_gamma_random_effects": {
+        "p_value": 0.01459127614990238,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_vs_gamma_random_effects": {
+        "p_value": 0.01459595948897137,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_vs_wiener": {
+        "p_value": 0.01499361211242409,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_vs_gig": {
+        "p_value": 0.016227020547843023,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_vs_gamma_random_effects": {
+        "p_value": 0.016661246991674785,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M2:inverse_gaussian_vs_gamma_state": {
+        "p_value": 0.01772528794492204,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_truncated_vs_gig": {
+        "p_value": 0.01802846662824452,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_random_effects_vs_gig": {
+        "p_value": 0.018052346475732346,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_vs_wiener_truncated": {
+        "p_value": 0.018597735307786203,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_random_effects_vs_gig": {
+        "p_value": 0.018981538490009955,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.01903212471389397,
+        "q_value": 0.06326895512997184,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_vs_gig": {
+        "p_value": 0.02197809857419213,
+        "q_value": 0.07113963485856926,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_vs_gamma_random_effects": {
+        "p_value": 0.022764268382374577,
+        "q_value": 0.07179500028287367,
+        "significant_at_fdr": false
+      },
+      "M2:wiener_truncated_vs_gig": {
+        "p_value": 0.024322316775597753,
+        "q_value": 0.07384773025483088,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_vs_inverse_gaussian": {
+        "p_value": 0.024615910084943626,
+        "q_value": 0.07384773025483088,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.025526420025045286,
+        "q_value": 0.07475594435906119,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_vs_wiener": {
+        "p_value": 0.02767299112617321,
+        "q_value": 0.07795732251902092,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_truncated_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.027887172283226996,
+        "q_value": 0.07795732251902092,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_random_effects_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.028965382835218084,
+        "q_value": 0.07917204641626276,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_state_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.03155917160726089,
+        "q_value": 0.08346540174220897,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.03232385907767272,
+        "q_value": 0.08346540174220897,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_state_vs_inverse_gaussian_state": {
+        "p_value": 0.033093168221078786,
+        "q_value": 0.08346540174220897,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_truncated_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.03325044459648975,
+        "q_value": 0.08346540174220897,
+        "significant_at_fdr": false
+      },
+      "M2:wiener_truncated_vs_wiener_multistage": {
+        "p_value": 0.03551815659666677,
+        "q_value": 0.08588177372924444,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_vs_wiener_truncated": {
+        "p_value": 0.035609515936515984,
+        "q_value": 0.08588177372924444,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_state_vs_inverse_gaussian_state": {
+        "p_value": 0.038092393894076496,
+        "q_value": 0.08889983453783369,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_vs_gamma_random_effects": {
+        "p_value": 0.03830643276833484,
+        "q_value": 0.08889983453783369,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_random_effects_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.04018336287665019,
+        "q_value": 0.09152877099681432,
+        "significant_at_fdr": false
+      },
+      "M2:wiener_truncated_vs_gamma_state": {
+        "p_value": 0.041419232448207485,
+        "q_value": 0.09262846529326402,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_vs_gig": {
+        "p_value": 0.04596814328043991,
+        "q_value": 0.10002346615829087,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.046352337975793335,
+        "q_value": 0.10002346615829087,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_vs_wiener_truncated": {
+        "p_value": 0.04799849979294802,
+        "q_value": 0.10178992197470012,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_state_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.05182827869800582,
+        "q_value": 0.10804878440431721,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_truncated_vs_gamma_state": {
+        "p_value": 0.05515942549747247,
+        "q_value": 0.11160175385927189,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_state_vs_gig": {
+        "p_value": 0.05534721126354134,
+        "q_value": 0.11160175385927189,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_random_effects_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.05856866164399563,
+        "q_value": 0.11346654348761404,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_state_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.059022378501246246,
+        "q_value": 0.11346654348761404,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_truncated_vs_inverse_gaussian_state": {
+        "p_value": 0.05903950230249836,
+        "q_value": 0.11346654348761404,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_vs_inverse_gaussian": {
+        "p_value": 0.06311276288229585,
+        "q_value": 0.11942876668495983,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_random_effects_vs_gig": {
+        "p_value": 0.06733513610326533,
+        "q_value": 0.12548820819244902,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_vs_wiener_truncated": {
+        "p_value": 0.06920330006711556,
+        "q_value": 0.12704486430231662,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_vs_gamma_state": {
+        "p_value": 0.07335808457829723,
+        "q_value": 0.13265440248947133,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_vs_inverse_gaussian_state": {
+        "p_value": 0.07441588432336196,
+        "q_value": 0.13265440248947133,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_truncated_vs_gamma_random_effects": {
+        "p_value": 0.07633141188364949,
+        "q_value": 0.133475787214134,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_vs_gamma_random_effects": {
+        "p_value": 0.07704699912360581,
+        "q_value": 0.133475787214134,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_vs_wiener_multistage": {
+        "p_value": 0.08316249439143296,
+        "q_value": 0.1420692612520313,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_state_vs_inverse_gaussian_state": {
+        "p_value": 0.08695366723466429,
+        "q_value": 0.14608456851288174,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_state_vs_gamma_random_effects": {
+        "p_value": 0.08788827699148982,
+        "q_value": 0.14608456851288174,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_state_vs_gig": {
+        "p_value": 0.09157508094473912,
+        "q_value": 0.15018313274937214,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_state_vs_gamma_random_effects": {
+        "p_value": 0.09679154673167069,
+        "q_value": 0.15664947694730913,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_state_vs_gig": {
+        "p_value": 0.10169625539295543,
+        "q_value": 0.1624498625108249,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_truncated_vs_gig": {
+        "p_value": 0.1102931954193112,
+        "q_value": 0.17392388508429843,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_vs_gamma_state": {
+        "p_value": 0.11499331472625764,
+        "q_value": 0.17705334009468013,
+        "significant_at_fdr": false
+      },
+      "M2:wiener_truncated_vs_gamma_random_effects": {
+        "p_value": 0.11515664396401959,
+        "q_value": 0.17705334009468013,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_vs_wiener_truncated": {
+        "p_value": 0.12150594823647859,
+        "q_value": 0.18450903250724526,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_random_effects_vs_wiener_multistage": {
+        "p_value": 0.1257737267293476,
+        "q_value": 0.18866059009402142,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_state_vs_gamma_random_effects": {
+        "p_value": 0.12996370631264434,
+        "q_value": 0.1925968177886175,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_vs_gig": {
+        "p_value": 0.13499823441152425,
+        "q_value": 0.1976759861025891,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_state_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.13887191908715998,
+        "q_value": 0.2009558358555374,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_truncated_vs_wiener_multistage": {
+        "p_value": 0.14657113509382297,
+        "q_value": 0.2096308094946538,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_state_vs_gamma_random_effects": {
+        "p_value": 0.15472290983909812,
+        "q_value": 0.2187461828759663,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_random_effects_vs_gig": {
+        "p_value": 0.15746925039989138,
+        "q_value": 0.22009906589984818,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_state_vs_gig": {
+        "p_value": 0.17820093540540372,
+        "q_value": 0.243821491674369,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_state_vs_wiener_multistage": {
+        "p_value": 0.18106345153033826,
+        "q_value": 0.243821491674369,
+        "significant_at_fdr": false
+      },
+      "M2:inverse_gaussian_state_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.18231465445716633,
+        "q_value": 0.243821491674369,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_vs_wiener_multistage": {
+        "p_value": 0.18237054661822724,
+        "q_value": 0.243821491674369,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_random_effects_vs_wiener_multistage": {
+        "p_value": 0.2102611643841891,
+        "q_value": 0.27808734644360494,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_state_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.23907244082963075,
+        "q_value": 0.3110655508915319,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_vs_gamma_random_effects": {
+        "p_value": 0.24025388076988233,
+        "q_value": 0.3110655508915319,
+        "significant_at_fdr": false
+      },
+      "M1:gamma_state_vs_wiener_multistage": {
+        "p_value": 0.2451908860800501,
+        "q_value": 0.3141508227900642,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_truncated_vs_gamma_state": {
+        "p_value": 0.2634124122441688,
+        "q_value": 0.33401780109312124,
+        "significant_at_fdr": false
+      },
+      "M2:inverse_gaussian_state_vs_wiener_multistage": {
+        "p_value": 0.26827946112917606,
+        "q_value": 0.33671809917233325,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_truncated_vs_wiener_multistage": {
+        "p_value": 0.32724259063830613,
+        "q_value": 0.4037412551718894,
+        "significant_at_fdr": false
+      },
+      "M2:inverse_gaussian_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.3302967701972453,
+        "q_value": 0.4037412551718894,
+        "significant_at_fdr": false
+      },
+      "M2:inverse_gaussian_random_effects_vs_gig": {
+        "p_value": 0.33152737213301486,
+        "q_value": 0.4037412551718894,
+        "significant_at_fdr": false
+      },
+      "M2:wiener_multistage_vs_gig": {
+        "p_value": 0.38443496702760444,
+        "q_value": 0.46149887004668555,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.3864584033724277,
+        "q_value": 0.46149887004668555,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_state_vs_wiener_multistage": {
+        "p_value": 0.3942200338012392,
+        "q_value": 0.4662410015149271,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_vs_wiener_truncated": {
+        "p_value": 0.4058337733148754,
+        "q_value": 0.47540527731171117,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_random_effects_vs_wiener_multistage": {
+        "p_value": 0.4330859282373046,
+        "q_value": 0.5025431054074383,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_vs_inverse_gaussian_random_effects": {
+        "p_value": 0.437552533241662,
+        "q_value": 0.5029809494273311,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_vs_wiener_multistage": {
+        "p_value": 0.4550412668780927,
+        "q_value": 0.513686680569726,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_truncated_vs_gamma_random_effects": {
+        "p_value": 0.45521827790325314,
+        "q_value": 0.513686680569726,
+        "significant_at_fdr": false
+      },
+      "M2:inverse_gaussian_state_vs_gig": {
+        "p_value": 0.46586195434291183,
+        "q_value": 0.5209183671288924,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_random_effects_vs_gig": {
+        "p_value": 0.48273315460904076,
+        "q_value": 0.534920522674883,
+        "significant_at_fdr": false
+      },
+      "M1:wiener_multistage_vs_gig": {
+        "p_value": 0.5287594214387867,
+        "q_value": 0.5806911503300961,
+        "significant_at_fdr": false
+      },
+      "M3:wiener_multistage_vs_gig": {
+        "p_value": 0.5369066887321343,
+        "q_value": 0.5844205549916153,
+        "significant_at_fdr": false
+      },
+      "M2:gamma_vs_wiener_truncated": {
+        "p_value": 0.5605721774061397,
+        "q_value": 0.6022669315360153,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_state_vs_wiener_multistage": {
+        "p_value": 0.5663052911152422,
+        "q_value": 0.6022669315360153,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_random_effects_vs_wiener_multistage": {
+        "p_value": 0.5720186920165601,
+        "q_value": 0.6022669315360153,
+        "significant_at_fdr": false
+      },
+      "M2:inverse_gaussian_vs_wiener_multistage": {
+        "p_value": 0.5728880568269413,
+        "q_value": 0.6022669315360153,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_vs_wiener_multistage": {
+        "p_value": 0.6249233688039243,
+        "q_value": 0.6514031725668024,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_random_effects_vs_wiener_multistage": {
+        "p_value": 0.6529577702687088,
+        "q_value": 0.6749059306138756,
+        "significant_at_fdr": false
+      },
+      "M3:inverse_gaussian_vs_wiener_multistage": {
+        "p_value": 0.6954178145986756,
+        "q_value": 0.7128032599636425,
+        "significant_at_fdr": false
+      },
+      "M3:gamma_state_vs_wiener_multistage": {
+        "p_value": 0.7742294099119842,
+        "q_value": 0.7870265902411079,
+        "significant_at_fdr": false
+      },
+      "M2:inverse_gaussian_random_effects_vs_wiener_multistage": {
+        "p_value": 0.8020642396085598,
+        "q_value": 0.8086385366545316,
+        "significant_at_fdr": false
+      },
+      "M1:inverse_gaussian_state_vs_gig": {
+        "p_value": 0.8759488616183972,
+        "q_value": 0.8759488616183972,
+        "significant_at_fdr": false
+      }
+    }
+  },
+  "per_tool_absolute": {
+    "n_tests": 9,
+    "n_significant_uncorrected": 0,
+    "n_significant_fdr_corrected": 0,
+    "conclusion_changed": false,
+    "detail": {
+      "tool7": {
+        "p_value": 0.3,
+        "q_value": 0.9866666666666668,
+        "significant_at_fdr": false
+      },
+      "tool8": {
+        "p_value": 0.44,
+        "q_value": 0.9866666666666668,
+        "significant_at_fdr": false
+      },
+      "tool5": {
+        "p_value": 0.47333333333333333,
+        "q_value": 0.9866666666666668,
+        "significant_at_fdr": false
+      },
+      "tool2": {
+        "p_value": 0.5266666666666666,
+        "q_value": 0.9866666666666668,
+        "significant_at_fdr": false
+      },
+      "tool9": {
+        "p_value": 0.6666666666666666,
+        "q_value": 0.9866666666666668,
+        "significant_at_fdr": false
+      },
+      "tool3": {
+        "p_value": 0.7933333333333333,
+        "q_value": 0.9866666666666668,
+        "significant_at_fdr": false
+      },
+      "tool6": {
+        "p_value": 0.86,
+        "q_value": 0.9866666666666668,
+        "significant_at_fdr": false
+      },
+      "tool1": {
+        "p_value": 0.88,
+        "q_value": 0.9866666666666668,
+        "significant_at_fdr": false
+      },
+      "tool4": {
+        "p_value": 0.9866666666666667,
+        "q_value": 0.9866666666666668,
+        "significant_at_fdr": false
+      }
+    }
+  },
+  "per_tool_relative": {
+    "n_tests": 9,
+    "n_significant_uncorrected": 0,
+    "n_significant_fdr_corrected": 0,
+    "conclusion_changed": false,
+    "detail": {
+      "tool5": {
+        "p_value": 0.52,
+        "q_value": 1.0,
+        "significant_at_fdr": false
+      },
+      "tool2": {
+        "p_value": 0.56,
+        "q_value": 1.0,
+        "significant_at_fdr": false
+      },
+      "tool3": {
+        "p_value": 0.6000000000000001,
+        "q_value": 1.0,
+        "significant_at_fdr": false
+      },
+      "tool6": {
+        "p_value": 0.6666666666666667,
+        "q_value": 1.0,
+        "significant_at_fdr": false
+      },
+      "tool9": {
+        "p_value": 0.6866666666666666,
+        "q_value": 1.0,
+        "significant_at_fdr": false
+      },
+      "tool7": {
+        "p_value": 0.7333333333333334,
+        "q_value": 1.0,
+        "significant_at_fdr": false
+      },
+      "tool4": {
+        "p_value": 0.8933333333333333,
+        "q_value": 1.0,
+        "significant_at_fdr": false
+      },
+      "tool1": {
+        "p_value": 0.9933333333333333,
+        "q_value": 1.0,
+        "significant_at_fdr": false
+      },
+      "tool8": {
+        "p_value": 1.0,
+        "q_value": 1.0,
+        "significant_at_fdr": false
+      }
+    }
+  }
+}

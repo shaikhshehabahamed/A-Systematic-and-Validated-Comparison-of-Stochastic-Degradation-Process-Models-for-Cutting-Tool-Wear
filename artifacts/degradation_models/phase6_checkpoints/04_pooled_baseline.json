@@ -1,0 +1,102 @@
+{
+  "gamma": {
+    "pooled_aic": 1772.4999833831512,
+    "pooled_bic": 1849.3550843498354,
+    "pooled_beta": 0.5073053198654176,
+    "pooled_age_model": "power_law",
+    "sum_per_machine_aic": 1772.014345175427,
+    "sum_per_machine_bic": 1825.1575912976407,
+    "delta_aic_pooled_minus_summed": 0.48563820772415056,
+    "delta_bic_pooled_minus_summed": 24.19749305219466
+  },
+  "inverse_gaussian": {
+    "pooled_aic": 1705.9501960282303,
+    "pooled_bic": 1746.4002491685903,
+    "pooled_beta": 0.35917259000782337,
+    "pooled_age_model": "linear",
+    "sum_per_machine_aic": 1707.7491305043568,
+    "sum_per_machine_bic": 1742.8518550338467,
+    "delta_aic_pooled_minus_summed": -1.798934476126533,
+    "delta_bic_pooled_minus_summed": 3.548394134743603
+  },
+  "wiener": {
+    "pooled_aic": 1955.6385008894404,
+    "pooled_bic": 2032.4936018561245,
+    "pooled_beta": 0.49573237341121107,
+    "pooled_age_model": "power_law",
+    "sum_per_machine_aic": 1959.4781743106628,
+    "sum_per_machine_bic": 2020.90794223727,
+    "delta_aic_pooled_minus_summed": -3.8396734212224146,
+    "delta_bic_pooled_minus_summed": 11.585659618854606
+  },
+  "wiener_truncated": {
+    "pooled_aic": 1780.8782433251515,
+    "pooled_bic": 1857.7333442918357,
+    "pooled_beta": 0.00010000022918215839,
+    "pooled_age_model": "power_law",
+    "sum_per_machine_aic": 1784.490843342559,
+    "sum_per_machine_bic": 1845.9206112691659,
+    "delta_aic_pooled_minus_summed": -3.6126000174074306,
+    "delta_bic_pooled_minus_summed": 11.812733022669818
+  },
+  "gamma_state": {
+    "pooled_aic": 1742.7126944209317,
+    "pooled_bic": 1823.6128007016518,
+    "pooled_beta": 0.5430884048121234,
+    "pooled_age_model": "power_law",
+    "sum_per_machine_aic": 1749.458533590109,
+    "sum_per_machine_bic": 1819.6639826490884,
+    "delta_aic_pooled_minus_summed": -6.745839169177316,
+    "delta_bic_pooled_minus_summed": 3.9488180525634107
+  },
+  "inverse_gaussian_state": {
+    "pooled_aic": 1682.4145499996437,
+    "pooled_bic": 1726.9096084540397,
+    "pooled_beta": 0.3894387534736033,
+    "pooled_age_model": "linear",
+    "sum_per_machine_aic": 1686.464588849216,
+    "sum_per_machine_bic": 1730.3429945110784,
+    "delta_aic_pooled_minus_summed": -4.050038849572275,
+    "delta_bic_pooled_minus_summed": -3.4333860570386605
+  },
+  "gamma_random_effects": {
+    "pooled_aic": 1765.9836117611314,
+    "pooled_bic": 1810.4786702155275,
+    "pooled_beta": 0.4886494590771909,
+    "pooled_age_model": "linear",
+    "sum_per_machine_aic": 1766.945778587511,
+    "sum_per_machine_bic": 1810.824184249373,
+    "delta_aic_pooled_minus_summed": -0.9621668263796437,
+    "delta_bic_pooled_minus_summed": -0.3455140338455749
+  },
+  "inverse_gaussian_random_effects": {
+    "pooled_aic": 1707.817041009485,
+    "pooled_bic": 1752.312099463881,
+    "pooled_beta": 0.35887770682218356,
+    "pooled_age_model": "linear",
+    "sum_per_machine_aic": 1708.5077605145652,
+    "sum_per_machine_bic": 1752.3861661764274,
+    "delta_aic_pooled_minus_summed": -0.6907195050803239,
+    "delta_bic_pooled_minus_summed": -0.07406671254648245
+  },
+  "wiener_multistage": {
+    "pooled_aic": 1736.6052090839557,
+    "pooled_bic": 1817.5053153646759,
+    "pooled_beta": 0.8019163183558524,
+    "pooled_age_model": "power_law",
+    "sum_per_machine_aic": 1710.7445703346125,
+    "sum_per_machine_bic": 1780.950019393592,
+    "delta_aic_pooled_minus_summed": 25.860638749343252,
+    "delta_bic_pooled_minus_summed": 36.55529597108398
+  },
+  "gig": {
+    "pooled_aic": 1695.397102374658,
+    "pooled_bic": 1739.892160829054,
+    "pooled_beta": 0.27862840285242807,
+    "pooled_age_model": "linear",
+    "sum_per_machine_aic": 1696.947757648884,
+    "sum_per_machine_bic": 1740.826163310746,
+    "delta_aic_pooled_minus_summed": -1.5506552742258464,
+    "delta_bic_pooled_minus_summed": -0.934002481692005
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "1": {
+    "machine": 1,
+    "conformal_rmse_s": 111.9539440836017,
+    "conformal_mae_s": 74.6342269501635,
+    "ig_rmse_s": 285.1210571796572,
+    "ig_mae_s": 227.08860108269764,
+    "ig_rmse_ratio_vs_conformal": 2.546770991531507
+  },
+  "2": {
+    "machine": 1,
+    "conformal_rmse_s": 248.3684554531389,
+    "conformal_mae_s": 211.7250310677304,
+    "ig_rmse_s": 436.5161943489965,
+    "ig_mae_s": 386.29310580860937,
+    "ig_rmse_ratio_vs_conformal": 1.7575347624262074
+  },
+  "3": {
+    "machine": 1,
+    "conformal_rmse_s": 272.12382865706195,
+    "conformal_mae_s": 231.5312872266448,
+    "ig_rmse_s": 392.9318789963428,
+    "ig_mae_s": 305.52126534757633,
+    "ig_rmse_ratio_vs_conformal": 1.4439451367984628
+  },
+  "4": {
+    "machine": 2,
+    "conformal_rmse_s": 135.44500355577244,
+    "conformal_mae_s": 117.76644865801326,
+    "ig_rmse_s": 561.2944610216283,
+    "ig_mae_s": 459.58138734253123,
+    "ig_rmse_ratio_vs_conformal": 4.1440765350233315
+  },
+  "5": {
+    "machine": 2,
+    "conformal_rmse_s": 133.27427686280726,
+    "conformal_mae_s": 109.2821420927683,
+    "ig_rmse_s": 567.0899844004098,
+    "ig_mae_s": 492.4325598074174,
+    "ig_rmse_ratio_vs_conformal": 4.255059548994388
+  },
+  "6": {
+    "machine": 2,
+    "conformal_rmse_s": 137.8209899718849,
+    "conformal_mae_s": 120.8100815732037,
+    "ig_rmse_s": 660.6932869128469,
+    "ig_mae_s": 553.191170933507,
+    "ig_rmse_ratio_vs_conformal": 4.7938509732634085
+  },
+  "7": {
+    "machine": 3,
+    "conformal_rmse_s": 132.10187465772404,
+    "conformal_mae_s": 95.43449824160022,
+    "ig_rmse_s": 275.88034757057017,
+    "ig_mae_s": 233.16877593562722,
+    "ig_rmse_ratio_vs_conformal": 2.088390859595113
+  },
+  "8": {
+    "machine": 3,
+    "conformal_rmse_s": 182.53981056091052,
+    "conformal_mae_s": 131.5390204977588,
+    "ig_rmse_s": 370.4360433587753,
+    "ig_mae_s": 264.9907789443131,
+    "ig_rmse_ratio_vs_conformal": 2.0293438577617398
+  },
+  "9": {
+    "machine": 3,
+    "conformal_rmse_s": 120.27719987781936,
+    "conformal_mae_s": 95.66274325795472,
+    "ig_rmse_s": 249.5637302109252,
+    "ig_mae_s": 220.98806741736016,
+    "ig_rmse_ratio_vs_conformal": 2.074904723957977
+  }
+}

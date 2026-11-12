@@ -1,0 +1,110 @@
+{
+  "M1": {
+    "gamma": {
+      "T_star": 2605.351170568562,
+      "cost_star": 0.00042593175761593613
+    },
+    "inverse_gaussian": {
+      "T_star": 2663.545150501672,
+      "cost_star": 0.00040985919791018796
+    },
+    "wiener": {
+      "T_star": 2450.1672240802677,
+      "cost_star": 0.00045273639093043437
+    },
+    "wiener_truncated": {
+      "T_star": 6000.0,
+      "cost_star": 0.00016669942258606355
+    },
+    "gamma_random_effects": {
+      "T_star": 2566.5551839464883,
+      "cost_star": 0.0004358764109086017
+    },
+    "inverse_gaussian_random_effects": {
+      "T_star": 2605.351170568562,
+      "cost_star": 0.00042085103092059884
+    },
+    "gig": {
+      "T_star": 2605.351170568562,
+      "cost_star": 0.00043102243999868287
+    },
+    "regret_using_gamma_policy_pct": 0.2474359885278869,
+    "regret_using_wiener_policy_pct": 2.909337027599394,
+    "regret_using_wiener_truncated_policy_pct": 97.46725969591488,
+    "regret_using_gamma_random_effects_policy_pct": 0.6691641916590388,
+    "regret_using_inverse_gaussian_random_effects_policy_pct": 0.2474359885278869,
+    "regret_using_gig_policy_pct": 0.2474359885278869
+  },
+  "M2": {
+    "gamma": {
+      "T_star": 3866.220735785953,
+      "cost_star": 0.00029066794913720724
+    },
+    "inverse_gaussian": {
+      "T_star": 4002.0066889632108,
+      "cost_star": 0.00027928281628850234
+    },
+    "wiener": {
+      "T_star": 3536.454849498328,
+      "cost_star": 0.0003290855370344564
+    },
+    "wiener_truncated": {
+      "T_star": 6000.0,
+      "cost_star": 0.00016666676207203118
+    },
+    "gamma_random_effects": {
+      "T_star": 3866.220735785953,
+      "cost_star": 0.00029183544836340245
+    },
+    "inverse_gaussian_random_effects": {
+      "T_star": 3963.210702341137,
+      "cost_star": 0.00028462659729106373
+    },
+    "gig": {
+      "T_star": 4002.0066889632108,
+      "cost_star": 0.0002828284512867545
+    },
+    "regret_using_gamma_policy_pct": 0.30993168661578474,
+    "regret_using_wiener_policy_pct": 4.4842353621892705,
+    "regret_using_wiener_truncated_policy_pct": 61.78170376945232,
+    "regret_using_gamma_random_effects_policy_pct": 0.30993168661578474,
+    "regret_using_inverse_gaussian_random_effects_policy_pct": 0.011576685249191967,
+    "regret_using_gig_policy_pct": 0.0
+  },
+  "M3": {
+    "gamma": {
+      "T_star": 2857.52508361204,
+      "cost_star": 0.00037049211159853455
+    },
+    "inverse_gaussian": {
+      "T_star": 2857.52508361204,
+      "cost_star": 0.00037733047298624923
+    },
+    "wiener": {
+      "T_star": 2314.38127090301,
+      "cost_star": 0.0004792926931668644
+    },
+    "wiener_truncated": {
+      "T_star": 6000.0,
+      "cost_star": 0.000167494858975746
+    },
+    "gamma_random_effects": {
+      "T_star": 2857.52508361204,
+      "cost_star": 0.00037622599238330893
+    },
+    "inverse_gaussian_random_effects": {
+      "T_star": 2915.71906354515,
+      "cost_star": 0.00036126957819552504
+    },
+    "gig": {
+      "T_star": 2663.545150501672,
+      "cost_star": 0.0004585838620151001
+    },
+    "regret_using_gamma_policy_pct": 0.0,
+    "regret_using_wiener_policy_pct": 14.812195870890644,
+    "regret_using_wiener_truncated_policy_pct": 117.32990888492007,
+    "regret_using_gamma_random_effects_policy_pct": 0.0,
+    "regret_using_inverse_gaussian_random_effects_policy_pct": 0.35430992970141295,
+    "regret_using_gig_policy_pct": 2.2552465125197396
+  }
+}
